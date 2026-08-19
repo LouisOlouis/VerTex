@@ -33,6 +33,7 @@ Escolha **1 Habilidade Passiva ou Ativa** inicial (`HABILIDADES.md`). Habilidade
 
 - **Capacidade de carga:** (5 + Força) espaços (`EQUIPAMENTOS.md`).
 - **Pacote inicial:** 1 arma à escolha, 1 item de qualquer categoria, roupas/ferramentas do conceito (sem custo de espaço, é vestimenta).
+- **Créditos:** 100 (fixo para todos, `ECONOMIA.md` §1).
 - **Sorte:** 3 (fixo para todos, `REGRAS.md` §6).
 - **Determinação:** 3 + Vontade (`REGRAS.md` §7).
 

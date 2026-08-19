@@ -215,4 +215,62 @@ Louis pediu: arquivos separados para Magia, Classes e Raças (em vez do arquivo 
 - `EQUIPAMENTOS.md` ganhou uma linha para Pergaminhos no catálogo de itens.
 
 ---
+
+## Fase 11 — Fechamento de lacunas estruturais do Core
+
+Auditoria identificou que Descanso, Recuperação, Estabilização, Furtividade e Ajuda/Intervenção fora de combate eram usados por referência em vários arquivos (`COMBATE.md`, `MAGIA.md`, `EXPLORACAO` via `REGRAS.md` §9) mas nunca formalizados em um único lugar. Combate carecia de manobras básicas (agarrar, derrubar, empurrar, desarmar, mirar) e de uma estrutura de Chefe além de "mais Vitalidade".
+
+### Decisão 32: Furtividade universal em 3 estados (Oculto/Suspeito/Detectado)
+- **Motivo:** o sistema já tinha a Perícia Furtividade e usava o conceito em `HABILIDADES.md` (ex: Passo Silencioso) e em Raças (`RACAS.md`, Pequenino), mas sem uma escala formal. Resolvido com 3 estados degradando 1 grau por vez (falha simples) ou 2 (falha crítica/ação exposta) — mesma lógica de graus já usada em Dificuldade (§1.3) e Infecção, sem inventar uma escala numérica nova.
+- **Ataque a partir de Oculto = Sucesso Extraordinário automático:** decisão deliberada para dar peso real a investir em Furtividade sem quebrar a regra anti-sucesso-automático de `HABILIDADES.md` §2 — a exceção é justificada porque o "teste" real já foi feito ao conseguir ficar Oculto, e o ataque em si ainda pode ser mitigado por Armadura/redução de dano.
+
+### Decisão 33: Manobras de combate usam a Margem existente, não uma tabela própria
+- **Motivo:** Agarrar/Derrubar/Empurrar/Desarmar poderiam ter virado uma sub-mecânica com sua própria tabela de resultados (comum em outros RPGs). Optou-se por reaproveitar o teste de ataque padrão (2d6+bônus vs Defesa) já validado nas Fases 1–2, com efeito adicional binário em vez de escalar por Margem — mantém a promessa central do sistema ("uma soma só") mesmo para combate tático.
+
+### Decisão 34: Chefe usa "ferramentas" opcionais, não uma ficha de Chefe separada
+- **Motivo:** pedido do escopo era evitar Chefes que sejam só HP multiplicado. Em vez de criar uma nova categoria de estatísticas, Fases/Reação/Convocação/Transformação foram definidas como um menu do qual o Mestre escolhe 1–2 por Chefe, sobre a mesma fórmula de Nível já validada (`REGRAS.md` §13) — sem exigir novo playtest matemático, pois não altera Vitalidade/Defesa/Dano base.
+
+### Nota de escopo
+Estas adições são estruturais (preenchem lacunas referenciadas por outros arquivos) e não alteram nenhum número já validado nas Fases 1–10. Não foi necessário rodar `/tools` novamente.
+
+---
 *Fases seguintes acrescentam decisões abaixo desta linha, na ordem em que forem tomadas.*
+
+## Fase 12 — Economia, Downtime e Crafting
+
+### Decisão 35: Créditos como moeda única, sem fragmentação
+- **Motivo:** o pedido do escopo era um sistema "simples e funcional". Fragmentar em moedas de valores diferentes (cobre/prata/ouro, por exemplo) adicionaria conversão sem gerar decisão de jogo nova — mantido como um único número, igual à filosofia de Vitalidade/Determinação/Sorte.
+- **Preços calibrados por proporção, não por simulação:** como Créditos não afetam testes (2d6+Atributo+Perícia vs Dificuldade), não há necessidade de rodar `/tools` para validar preços — a calibração usada foi proporcional à escala de dano/efeito já validada nas Fases 1–2 (arma melhor = preço maior, na mesma ordem relativa da tabela de dano).
+- **Renda inicial (100 Créditos):** suficiente para comprar uma arma padrão + 1 item de suporte, sem cobrir uma arma pesada ou armadura pesada de largada — mantém a pressão de escolha inicial sem travar o personagem sem equipamento básico.
+
+### Decisão 36: Downtime em Blocos abstratos, reaproveitando Trechos
+- **Motivo:** em vez de rastrear dias/semanas exatos, Downtime usa a mesma abstração de tempo já validada em `CORRIDAS.md`/Exploração (`REGRAS.md` §9) — um "Bloco" representa uma atividade relevante, não um número fixo de dias. Isso evita transformar o downtime em planilha de calendário, conforme a restrição explícita do escopo ("evite transformar o jogo em simulador de planilha").
+
+### Decisão 37: Crafting nunca estritamente melhor que comprar
+- **Motivo:** para não criar um "caminho ótimo" que torne Economia irrelevante (ex: todo item sempre mais barato fabricado que comprado), a regra de equilíbrio da seção 5 de `CRAFTING.md` fixa que um item fabricado deve equivaler, não superar, o item comprado equivalente — Crafting existe para acesso (campo, embargo, item raro), não para otimização de custo.
+
+### Nota de escopo
+Os três sistemas são aditivos ao Core e reaproveitam integralmente a Margem de Sucesso e a tabela de Dificuldade já validadas — nenhuma mecânica numérica nova foi introduzida, então nenhum novo script de `/tools` foi necessário.
+
+---
+
+## Fase 13 — Bestiário (30 inimigos) e regras de Chefe aplicadas
+
+### Decisão 38: Categorização temática (Comuns/Especializados/Sobrenaturais/Elites/Chefes) é independente da Categoria mecânica
+- **Motivo:** o escopo pediu 10/8/6/4/2 por papel narrativo, mas o sistema de estatísticas já usa 4 categorias mecânicas (Minion/Padrão/Elite/Chefe, `REGRAS.md` §13). Em vez de criar uma segunda escala numérica, o catálogo usa as 5 categorias narrativas só como organização de conteúdo — a coluna "Categoria" de cada inimigo continua sendo a mecânica de sempre. Isso evita duplicar a tabela de Vitalidade/Defesa/Ataque/Dano com um significado novo.
+- **Todos os 23 novos inimigos usam as fórmulas de Nível já validadas** (`REGRAS.md` §13: Vitalidade = 8+Nível×3, Defesa = 8+Nível, Ataque = Nível+3) — nenhum stat foi inventado fora da tabela, então nenhuma nova simulação de `/tools` foi necessária.
+
+### Decisão 39: Chefes usam 2 das 5 ferramentas de `COMBATE.md` §10, nunca as 5 juntas
+- **Motivo:** confirma a Decisão 34 (Fase 11) na prática — Líder da Seita usa Convocação + mudança de comportamento por Fase; O Devorador usa Mudança de Arena + Transformação. Nenhum dos dois usa Reação ou todas as ferramentas ao mesmo tempo, mantendo o clímax jogável sem sobrecarregar a mesa com regras simultâneas.
+
+### Nota de escopo
+Bestiário fechado em 30 entradas (10+8+6+4+2), conforme o item 10 do escopo original. Resistências/fraquezas novas reaproveitam Condições e Perícias já existentes (Sangrando, Envenenado, Fogo, Furtividade, Persuasão) — nenhuma palavra-chave de resistência nova foi criada.
+
+---
+
+## Fase 14 — Aventura Introdutória
+
+### Decisão 40: Tutorial ensina jogando, sem seção de regras separada
+- **Motivo:** o escopo pedia uma aventura que funcionasse como tutorial. Em vez de preceder a aventura com um resumo de regras (redundante com `REFERENCIA_RAPIDA.md`), cada cena declara qual regra ela pratica e remete ao arquivo fonte — o grupo aprende no momento em que a regra é usada pela primeira vez, não antes.
+- **Cena 4 (decisão sem teste) foi incluída deliberadamente** para reforçar a regra de `REGRAS.md` §10 de que nem toda cena precisa de rolagem — um ponto que costuma ser mal aprendido por grupos novos que tentam rolar dados para tudo.
+- **Nenhum número novo:** a aventura usa apenas inimigos e Dificuldades já existentes (Guarda Desatento e Enxame Contaminado do catálogo da Fase 13, Dificuldades da tabela central) — não exigiu playtest adicional além da validação já feita nos números que ela reutiliza.

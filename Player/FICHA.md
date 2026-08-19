@@ -43,6 +43,7 @@ Resistência Social (8+Vontade): ___
 ## Recursos
 Sorte: ○ ○ ○ (3 fixos, +1 se Pequenino)
 Determinação (3+Vontade): ___ · atual: ___
+Créditos: ___ (início: 100 — `ECONOMIA.md` §1)
 
 ## Estado
 ☐ Saudável ☐ Ferido ☐ Gravemente Ferido ☐ Incapacitado

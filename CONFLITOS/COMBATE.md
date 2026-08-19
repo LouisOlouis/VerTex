@@ -96,5 +96,39 @@ A cada rodada sem ser estabilizado (perícia Medicina, teste Dificuldade 8) e ne
 
 Isso evita que um único golpe azarado encerre um personagem, mas mantém risco real.
 
+## 9. Manobras Especiais
+
+Todas usam a ação **Atacar** ou **Interagir** (`§1`) — nenhuma manobra abaixo cria uma nova categoria de ação. Todas seguem a Margem de Sucesso normal (`REGRAS.md` §2) contra a Defesa do alvo, salvo indicação contrária.
+
+| Manobra | Ação | Teste | Efeito no Sucesso |
+|---|---|---|---|
+| **Agarrar** | Atacar | Força+Combate (ou Atletismo) vs Defesa | Alvo fica **Agarrado**: Movimento 0, −2 em testes físicos, não pode ser alvo de ataques à distância de terceiros sem risco de acertar quem agarrou (a critério do Mestre) |
+| **Escapar** (de Agarrado) | Interagir | Agilidade+Atletismo/Acrobacia vs o mesmo bônus de quem agarrou | Sucesso remove Agarrado |
+| **Derrubar** | Atacar | Força+Combate ou Agilidade+Acrobacia vs Defesa | Alvo fica **Caído**: −2 em testes físicos até gastar 1 ação para se levantar; ataques corpo a corpo contra alvo Caído reduzem a Defesa dele em 2 |
+| **Empurrar** | Atacar | Força+Combate vs Defesa | Alvo é deslocado 1 "espaço" narrativo (para fora de alcance, contra um obstáculo, para um perigo ambiental) |
+| **Desarmar** | Atacar | Força+Combate ou Agilidade+Acrobacia vs Defesa | Alvo perde a arma empunhada (cai a 1 espaço dele); Sucesso Excepcional ou melhor: o desarmador pode pegar a arma no mesmo movimento |
+| **Ataque não letal** | Atacar | normal, mas dano aplicado normalmente | Ao levar o alvo a 0 de Vitalidade, ele fica **Incapacitado** em vez de arriscar Morte — a rodada de risco de Moribundo (§8) não se aplica a dano não letal |
+| **Mirar** | Preparar ação (gasta a ação neste turno; o ataque sai no próximo) | — | O próximo ataque contra o mesmo alvo, se ele não se mover nem sair de linha de visão, tem a Dificuldade reduzida em 1 degrau |
+
+Nenhuma manobra acima ignora Defesa ou Vitalidade por completo (regra anti-quebra de `HABILIDADES.md` §2 vale igualmente para regras de combate base).
+
+## 10. Terreno e Chefes
+
+### Interação com Terreno
+Terreno difícil (entulho, lama, escadas estreitas) custa 1 ação extra de Mover para atravessar o mesmo trecho que custaria 1 normalmente, ou impõe 1 degrau de Dificuldade a testes físicos feitos ali — o Mestre escolhe qual dos dois se encaixa na cena, nunca os dois juntos. Elevação (estar acima do alvo) concede a quem ataca à distância a mesma redução de Dificuldade de Mirar (§9), sem empilhar com ela.
+
+### Chefes: Fases e Ações Especiais
+Um Chefe (`REGRAS.md` §13) não deveria ser só "mais Vitalidade" — use estas ferramentas, sem exigir mais de uma ou duas por Chefe:
+
+| Ferramenta | Como usar |
+|---|---|
+| **Gatilho de Fase** | Ao cruzar um limiar de Vitalidade (ex: 66%, 33%), o Chefe muda de comportamento, ganha uma nova ação especial, ou revela uma fraqueza nova — nunca só fica "mais forte" |
+| **Ação de Reação** | Fora do próprio turno, o Chefe pode usar 1 das suas ações extras (`REGRAS.md` §13, Categoria Chefe) como reação a um gatilho declarado (ex: "se alguém chegar perto, empurra") |
+| **Mudança de Arena** | Ao mudar de Fase, o cenário muda (escombros caem, a sala inunda) — cria um novo Perigo Ambiental (`REGRAS.md` §9) que passa a valer para todos, PJs incluso |
+| **Convocação** | O Chefe gasta 1 das ações extras para trazer 1–2 Minions (`REGRAS.md` §13) à cena, uma vez por Fase, no máximo |
+| **Transformação** | Ao entrar na última Fase, o Chefe pode trocar Resistências/Fraquezas ou ganhar uma nova Habilidade — sempre anunciado narrativamente antes de valer mecanicamente (nunca uma penalidade surpresa sem pista) |
+
+Um Chefe de Nível N usa as estatísticas normais da categoria Chefe (`REGRAS.md` §13) mais 1 a 2 dessas ferramentas — nunca todas ao mesmo tempo, para não sobrecarregar a mesa com regras extras no clímax.
+
 ---
 *Ferimentos: condições específicas (Sangrando, Atordoado etc.) são detalhadas na Fase 3, junto com Sorte e Determinação, para poderem referenciar como esses recursos as mitigam.*

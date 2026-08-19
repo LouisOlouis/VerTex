@@ -269,5 +269,81 @@ Três sistemas adicionais, cada um independente e opcional — a campanha usa ne
 
 Classes e Raças compartilham um eixo de progressão próprio: a **Habilidade Única** de cada uma evolui em 3 Estágios, e os Estágios 2 e 3 não custam PE — desbloqueiam completando uma Missão de Classe/Origem, guiada pelo Mestre (`MESTRE.md` §10).
 
+## 15. Tempo e Descanso
+
+Três escalas de tempo cobrem tudo que o sistema precisa medir — nenhuma exige contar minutos:
+
+| Escala | Duração narrativa | Uso |
+|---|---|---|
+| Ação | ~alguns segundos | combate, corridas (3 ações/rodada) |
+| Cena | minutos a ~1 hora | investigação, conflito social, perseguição completa |
+| Trecho / Descanso / Sessão | ver abaixo | exploração, recuperação, downtime |
+
+### Descanso Curto
+Uma pausa de alguns minutos a ~1 hora dentro da mesma cena ou logo após ela (respirar, fazer curativo de campo, reorganizar o grupo). Recupera:
+- **1 ponto de Determinação** (`REGRAS.md` §7).
+- **Metade do Mana atual até o máximo**, arredondado para cima, se `MAGIA.md` estiver em uso (`MAGIA.md` §2).
+- Não recupera Vitalidade nem Sorte.
+
+### Descanso Longo
+Uma noite de sono ou pausa segura equivalente (acampamento, hospedagem). Recupera:
+- **Vitalidade até o máximo** (ver "Recuperação de Vitalidade" abaixo).
+- **Determinação até o máximo**.
+- **Mana até o máximo**, se aplicável.
+- Remove **1 Nível de Exausto**.
+- Não recupera Sorte (ver §6) nem reduz Infecção/Maldições — esses seguem suas próprias regras de tratamento.
+
+Um Descanso Longo só se completa se não for interrompido por um encontro que force ação — interrupção deixa as recuperações pela metade (arredondando para cima), a critério do Mestre.
+
+### Recuperação de Vitalidade
+Fora de tratamento médico (que age em cena, ver `COMBATE.md` §8), a Vitalidade se recupera:
+- **Descanso Longo:** recupera totalmente.
+- **Downtime/tempo entre aventuras:** recupera totalmente, mesmo sem Descanso Longo formal.
+- **Sem descanso** (ex: marcha forçada): não recupera sozinha — só por Medicina, item ou habilidade.
+
+### Sorte e Determinação (recapitulação)
+Sorte só se recupera entre sessões ou por decisão do Mestre em momentos marcantes (§6) — nunca por Descanso. Determinação segue a tabela acima (§7 detalha os usos).
+
+## 16. Estabilização e Morte
+
+Regras completas de Ferimentos, Incapacitação e Morte estão em `COMBATE.md` §6 e §8 (dependem de dano recebido em combate, então ficam junto das regras de ataque). Esta seção fixa os termos usados em qualquer contexto, dentro ou fora de combate:
+
+| Estado | Gatilho | Pode agir? |
+|---|---|---|
+| Saudável / Ferido / Gravemente Ferido | Vitalidade acima de 0 | Sim, com as penalidades de `COMBATE.md` §6 |
+| Incapacitado | Vitalidade 0 ou menos | Não, exceto gastando Determinação (`REGRAS.md` §7) |
+| Moribundo | Incapacitado e não estabilizado | Testes de Vigor por rodada (`COMBATE.md` §8) |
+| Morto | Vitalidade ≤ −máximo | Não — permanente |
+
+**Estabilizar** (fora ou dentro de combate) é sempre um teste de Medicina, Dificuldade 8, feito por outro personagem em 1 ação. Sucesso trava a Vitalidade do alvo no valor atual (não sobe nem desce) até receber tratamento maior; falha não piora nada, só consome a ação.
+
+## 17. Furtividade
+
+Toda tentativa de agir sem ser notado — dentro ou fora de combate — usa a mesma escala de três estados:
+
+| Estado | Significado |
+|---|---|
+| Oculto | ninguém hostil sabe da presença do personagem naquele local |
+| Suspeito | algo foi notado (som, vulto, rastro), mas ninguém confirmou o quê ou onde |
+| Detectado | a posição do personagem é conhecida |
+
+**Ficar Oculto:** teste de Furtividade vs a Percepção+Investigação de quem poderia notar (Dificuldade = 8 + a maior Percepção relevante na cena). Sucesso mantém Oculto.
+
+**De Oculto para Suspeito:** qualquer ação barulhenta, ou uma falha simples no teste de Furtividade, degrada 1 grau (Oculto→Suspeito), não direto para Detectado — dá ao Mestre espaço para tensão antes da revelação.
+
+**De Suspeito para Detectado:** uma falha crítica no teste de Furtividade, ou uma ação que exponha o personagem diretamente (atacar, falar alto, luz direta), leva a Detectado.
+
+**Voltar a Oculto:** só é possível saindo do campo de percepção de quem detectou (linha de visão/audição quebrada por pelo menos 1 ação) e passando novamente pelo teste de Ficar Oculto — não existe "esconder-se instantaneamente" de quem já está olhando.
+
+**Ataque a partir de Oculto:** o primeiro ataque feito a partir do estado Oculto contra um alvo que não sabe da presença do atacante é automaticamente um Sucesso Extraordinário na Margem de acerto (`COMBATE.md` §3), sem precisar rolar o ataque — só a Furtividade que garantiu o Oculto já foi o teste relevante. Depois desse ataque, o atacante passa a Detectado por quem foi atingido (mas pode continuar Oculto para outros alvos que não notaram).
+
+## 18. Ajuda e Intervenção
+
+A ação **Ajudar** (`COMBATE.md` §1) não é exclusiva de combate: fora de cena, qualquer personagem pode gastar uma ação relevante para dar **+1 no próximo teste de um aliado**, desde que a ajuda seja plausível na ficção (não é possível "ajudar" em algo que só uma pessoa fisicamente consegue fazer, como se espremer por um vão estreito).
+
+**Intervir** contra um teste de um NPC ou obstáculo (ex: atrapalhar quem está tentando escapar, distrair um guarda) usa a mesma lógica: um teste oposto ou uma ação que force o alvo a repetir o teste em 1 degrau de Dificuldade mais difícil, à critério do Mestre — nunca cancela o teste do alvo automaticamente (regra anti-quebra de `HABILIDADES.md` §2 se aplica igualmente aqui: nenhum efeito gera sucesso/falha automática de terceiros).
+
+Ajuda e Intervenção **não empilham** entre múltiplos ajudantes no mesmo teste — o bônus máximo por teste é +1, não importa quantos personagens ajudem (evita que um grupo grande torne qualquer teste trivial).
+
 ---
 

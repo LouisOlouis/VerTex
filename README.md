@@ -7,7 +7,7 @@ Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dif
 
 - **Nunca jogou este sistema?** Leia [`REGRAS.md`](CORE/REGRAS.md) — cobre tudo que é transversal (dados, atributos, perícias, Sorte, Determinação, Condições, Progressão, Exploração, Conflitos Sociais).
 - **Vai criar um personagem?** [`CRIACAO_PERSONAGEM.md`](Player/CRIACAO_PERSONAGEM.md) + a ficha em branco em [`FICHA.md`](Player/FICHA.md).
-- **Vai mestrar?** Comece por [`MESTRE.md`](MESTRE/MESTRE.md).
+- **Vai mestrar?** Comece por [`MESTRE.md`](MESTRE/MESTRE.md). Para rodar sua primeira sessão sem preparar nada, use a [`AVENTURA_INTRODUTORIA.md`](AVENTURAS/AVENTURA_INTRODUTORIA.md).
 
 ## Sumário
 
@@ -25,15 +25,24 @@ Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dif
 | [`RACAS.md`](Player/RACAS.md) | *(módulo opcional)* Humano, Elfo, Anão, Orc, Halfling e mais, com Habilidade Única progressiva |
 | [`CORRIDAS.md`](EXPLORAÇAO/CORRIDAS.md) | Corridas e perseguições: Trechos, Manobra Arriscada, Ultrapassagem, veículos e montarias |
 | [`EQUIPAMENTOS.md`](CORE/EQUIPAMENTOS.md) | Catálogo de armas, armaduras e itens |
-| [`INIMIGOS.md`](MESTRE/INIMIGOS.md) | Criação rápida de inimigos por Nível + catálogo pronto |
+| [`INIMIGOS.md`](MESTRE/INIMIGOS.md) | Criação rápida de inimigos por Nível + catálogo de 30 (Comuns/Especializados/Sobrenaturais/Elites/Chefes) |
+| [`ECONOMIA.md`](CORE/ECONOMIA.md) | Moeda (Créditos), preços de armas/armaduras/itens/serviços, recompensas e comércio |
+| [`DOWNTIME.md`](CORE/DOWNTIME.md) | Atividades entre aventuras: tratamento, treinamento, pesquisa, fabricação, trabalho, reputação |
+| [`CRAFTING.md`](CORE/CRAFTING.md) | Fabricação modular: materiais, ferramentas, tempo, Dificuldade e exemplos de receita |
 | [`MESTRE.md`](MESTRE/MESTRE.md) | Guia do Mestre: dificuldades, encontros, NPCs, recompensas, improviso |
 | [`PLAYTEST.md`](PLAYTEST/PLAYTEST.md) | 3 cenários jogados (combate, investigação, corrida) e o que cada um revelou |
 | [`BALANCEAMENTO.md`](PLAYTEST/BALANCEAMENTO.md) | **Toda** decisão de balanceamento, com o teste matemático ou de playtest que a motivou |
+| [`REFERENCIA_RAPIDA.md`](MESTRE/REFERENCIA_RAPIDA.md) | Uma página de consulta rápida de mesa: teste básico, combate, condições, descanso, morte, perseguição, social |
+| [`AVENTURA_INTRODUTORIA.md`](AVENTURAS/AVENTURA_INTRODUTORIA.md) | Aventura tutorial de 1 sessão, cobrindo teste básico, exploração, social, furtividade, combate e recompensa |
 | [`/tools`](tools) | Scripts Python usados para validar as regras (probabilidade, combate, corrida, infecção, inimigos) |
 
 ## O que já está pronto
 
-Personagens, combate, ferimentos e condições, Sorte e Determinação, habilidades, Infecção, Maldições/Artefatos/Wagurita (estrutura), corridas, exploração, conflitos sociais, progressão, equipamentos, criação de inimigos, guia do Mestre, playtest, auditoria de consistência, e os módulos opcionais de Magia, Classes e Raças.
+Personagens, combate (incluindo agarrar/derrubar/empurrar/desarmar/mirar e regras de Chefe), ferimentos e condições, Sorte e Determinação, Tempo/Descanso/Recuperação, Estabilização e Morte, Furtividade universal (Oculto/Suspeito/Detectado), Ajuda e Intervenção fora de combate, habilidades, Infecção, Maldições/Artefatos, corridas, exploração, conflitos sociais, progressão, equipamentos, Economia, Downtime, Crafting, criação de inimigos, guia do Mestre, referência rápida, playtest, auditoria de consistência, e os módulos opcionais de Magia, Classes e Raças.
+
+## Em aberto (próximas fases)
+
+Expansão de Veículos e guia de Campanhas. Nenhum desses módulos é necessário para jogar o Core — todos são aditivos.
 
 ## Nota sobre este README
 
