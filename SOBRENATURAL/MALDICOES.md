@@ -1,4 +1,4 @@
-# MALDIÇÕES, ARTEFATOS E WAGURITA
+# MALDIÇÕES e ARTEFATOS
 
 ## 1. Maldições
 
