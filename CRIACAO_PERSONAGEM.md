@@ -1,0 +1,63 @@
+# CRIAÇÃO DE PERSONAGEM
+
+## 1. Conceito Narrativo
+
+Antes de qualquer número, defina em uma frase cada:
+
+- **Nome**
+- **Conceito** (o que essa pessoa faz, em poucas palavras)
+- **Origem** (de onde veio)
+- **História** (um parágrafo)
+- **Motivação** (por que aventura)
+- **Objetivo** (o que busca agora)
+
+## 2. Atributos
+
+Distribua o **array fixo {4, 3, 3, 2, 2, 1}** entre os 6 Atributos (Força, Agilidade, Vigor, Intelecto, Percepção, Vontade) — cada valor do array usado uma única vez. Isso garante que todo personagem comece com o mesmo total (15 pontos), sem cálculo de custo: a diferença entre personagens é **onde** os pontos vão, não quanto cada um tem.
+
+## 3. Perícias
+
+**6 pontos** para distribuir entre as 12 Perícias. Máximo de **3** em qualquer Perícia na criação (o resto da progressão até 5 vem jogando, com PE — `REGRAS.md` §11).
+
+## 4. Habilidades
+
+Escolha **1 Habilidade Passiva ou Ativa** inicial (`HABILIDADES.md`). Habilidades Especiais não estão disponíveis na criação — elas nascem de Infecção, Maldições, Artefatos ou são compradas depois com PE.
+
+## 5. Equipamento e Recursos
+
+- **Capacidade de carga:** 5 + Força espaços (`EQUIPAMENTOS.md`).
+- **Pacote inicial:** 1 arma à escolha, 1 item de qualquer categoria, roupas/ferramentas do conceito (sem custo de espaço, é vestimenta).
+- **Sorte:** 3 (fixo para todos, `REGRAS.md` §6).
+- **Determinação:** 3 + Vontade (`REGRAS.md` §7).
+
+## 6. Estatísticas Derivadas (automáticas)
+
+Vitalidade = 10+Vigor×2 · Defesa = 8+Agilidade · Iniciativa = 2d6+Agilidade+Percepção · Movimento = 6+Agilidade (`REGRAS.md` §5).
+
+## 7. Exemplos (mesmo total de pontos, sem combinação obviamente superior)
+
+### O Combatente — Marco, ex-segurança
+Atributos: Força 4, Vigor 3, Agilidade 3, Percepção 2, Intelecto 2, Vontade 1.
+Perícias: Combate 3, Atletismo 2, Intimidação 1.
+Habilidade: Reflexos de Combate (Passiva).
+Vitalidade 16 · Defesa 11.
+**Ponto fraco:** Vontade 1 — baixa Determinação (4) e vulnerável a Amedrontado/Infecção sobrenatural.
+
+### A Investigadora — Iris, ex-jornalista
+Atributos: Intelecto 4, Percepção 3, Vontade 3, Agilidade 2, Vigor 2, Força 1.
+Perícias: Investigação 3, Tecnologia 2, Enganação 1.
+Habilidade: Golpe Certeiro trocado por uma Ativa de Investigação equivalente (mesmo custo).
+Vitalidade 14 · Defesa 10.
+**Ponto fraco:** Força 1 — carga baixa (6 espaços) e péssima em combate corpo a corpo direto.
+
+### O Sobrevivente Carismático — Deko, guia de expedição
+Atributos: Vontade 4, Vigor 3, Percepção 3, Agilidade 2, Força 2, Intelecto 1.
+Perícias: Sobrevivência 3, Persuasão 2, Furtividade 1.
+Habilidade: Fúria de Combate trocada por equivalente ligado a Vontade (mesmo custo, Especial fica bloqueada até jogar).
+Vitalidade 16 · Defesa 10 · Determinação 7 (a mais alta dos três).
+**Ponto fraco:** Intelecto 1 — praticamente incapaz em Tecnologia/Investigação técnica.
+
+**Por que nenhum domina:** o array de Atributos é sempre o mesmo total (15) e as Perícias sempre 6 pontos — cada personagem só pode ser realmente bom em 1–2 pilares (combate, investigação, social/sobrevivência), nunca em todos, porque o total de pontos nunca muda. Isso é a mesma lógica de profundidade-vs-amplitude já validada na Progressão (`BALANCEAMENTO.md`, Decisão 17), só que travada na criação para garantir personagens diferenciados desde o início.
+
+---
+*Ficha textual pronta para preencher em `FICHA.md`.*
