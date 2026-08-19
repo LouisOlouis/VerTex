@@ -154,4 +154,65 @@ Revisão de todos os arquivos em busca dos problemas listados no item 29. Encont
 **Verificações sem problema encontrado:** custos de Habilidades (todas têm custo definido, `HABILIDADES.md`), soma dos arrays de Atributos e Perícias dos 3 personagens de exemplo (todos batem com o total permitido), fórmulas de estatísticas derivadas aplicadas nos exemplos (Vitalidade/Defesa/Determinação conferem com os Atributos declarados), referências cruzadas entre arquivos (`REGRAS.md` → `COMBATE.md`, `HABILIDADES.md`, `INFECCAO.md`, `MALDICOES.md`, `CORRIDAS.md`, `EQUIPAMENTOS.md`, `MESTRE.md`, `INIMIGOS.md` — todas apontam para conteúdo que de fato existe).
 
 ---
+
+## Fase 10 — Módulos Opcionais: Magia, Classes, Raças
+
+### Decisão 20: Magia reaproveita Dificuldade, Margem e Infecção em vez de sistemas novos
+- **Teste realizado:** simulação (`/tools/magic_sim.py`) do dano médio por ponto de Foco gasto em cada Círculo, comparado ao dano por ação das armas já validadas em `COMBATE.md`.
+- **Resultado:** dano por Foco ficou estável (~1,6–1,8) em todos os Círculos; feitiços de Círculo alto (2d10, 3d10) superam o dano de qualquer arma por ativação, mas o Foco total (4–14) permite só 1–2 conjurações desse porte por cena de descanso — magia vira "burst" limitado contra o dano sustentado e ilimitado das armas, sem uma opção dominar a outra.
+- **Solução:** tabela de Círculos calibrada com esses custos; falha crítica ao conjurar gera uma exposição à Infecção (reaproveitando `INFECCAO.md` em vez de inventar uma penalidade de magia exclusiva), e a Dificuldade de cada Círculo usa a tabela central de Dificuldade — nenhuma escala numérica nova para o Mestre aprender.
+
+### Decisão 21: Classes não somam poder, só empacotam escolhas
+- **Motivo:** adicionar Classes sobre um sistema já validado como livre (`CRIACAO_PERSONAGEM.md`) criaria risco de dar mais pontos efetivos a quem escolhe uma Classe do que a quem monta o personagem manualmente. Resolvido tornando a Classe um atalho que só direciona o Atributo Principal, as Perícias e a única Habilidade que todo personagem já recebe — nunca uma habilidade ou pontos extras.
+
+### Decisão 22: Raças deslocam pontos, não somam
+- **Motivo:** mesma lógica da Decisão 21. Cada Raça desloca exatamente 1 ponto entre dois Atributos (soma do array continua 15) e concede um traço qualitativo (nunca um bônus numérico livre, para não conflitar com as regras anti-quebra de `HABILIDADES.md`). A única exceção (Nível de Infecção inicial em "Enraizado na Infecção") vem com o mesmo custo que qualquer personagem pagaria para chegar lá jogando, para não pular a progressão de graça.
+
+### Nota de escopo
+Os três módulos eram opcionais e não modificam nenhuma regra central já validada nas Fases 1–9, nem invalidam os 3 personagens de exemplo de `CRIACAO_PERSONAGEM.md`.
+
+## Fase 10 (revisão) — Magia com Pergaminhos/Conexão Arcana, Habilidades Únicas com progressão por Missão
+
+Louis pediu uma revisão do módulo de Magia (duas formas de uso — Pergaminho vs Conexão Arcana — e uma "Infecção Arcana" separada da Infecção comum) e a adição de Habilidades Únicas em 3 Estágios para Classes e Raças, evoluindo por Missão em vez de só por PE. `MAGIA.md`, `CLASSES.md` e `RACAS.md` foram consolidados em um único arquivo, `MAGIA_CLASSES_RACAS.md`.
+
+### Decisão 23: Infecção Arcana como trilha separada, reaproveitando a estrutura de `INFECCAO.md`
+- **Motivo:** em vez de criar uma mecânica de corrupção mágica do zero, a Infecção Arcana usa exatamente os mesmos 6 Níveis, dádivas e regras de tratamento já validados para a Infecção comum — só troca os sintomas/dádivas pelo Arcano específico. Isso cumpre o pedido de Louis (falha crítica com Conexão Arcana = "alma e corpo fraquejaram perante o elemento") sem duplicar um sistema já testado.
+- **Ajuste em relação ao pedido original:** Pergaminhos foram deliberadamente isentos de Infecção Arcana (conforme Louis pediu) — falha crítica com Pergaminho destrói o item em vez de arriscar o personagem, criando a assimetria risco/segurança entre as duas formas de magia.
+
+### Decisão 24: "Domínio" ligado à Vontade, com recompensa mecânica em troca de perda de controle
+- **Motivo:** Louis descreveu que mente fraca pode ser dominada pelo Arcano, "não necessariamente algo ruim". Formalizado como: a partir do Nível 3 de Infecção Arcana, falhar em um teste de Vontade (Dificuldade 8+Nível) faz o Arcano influenciar uma decisão da cena, mas concede +2 no próximo teste alinhado com essa influência — perda de controle narrativo trocada por vantagem mecânica, em vez de ser só uma penalidade.
+
+### Decisão 25: Mana cresce com o uso, não só com Atributos
+- **Motivo:** pedido direto de Louis ("quanto mais magia em geral você usa, mais mana você tem"). Implementado como um contador de Usos Mágicos Acumulados (Pergaminho ou Conexão Arcana, sucesso ou falha) que soma +1 ao Mana máximo a cada 8 usos, até um teto de +5 — rende progressão ao longo de uma campanha inteira sem inflacionar o número indefinidamente.
+
+### Decisão 26: Habilidades Únicas de Classe/Raça em 3 Estágios, gatilho é narrativo (Missão), não PE
+- **Motivo:** pedido direto de Louis. Para não abrir uma segunda economia de progressão paralela a PE (o que quebraria a Decisão 17, custo de Atributo vs Perícia), os Estágios 2 e 3 não têm custo em PE — são desbloqueados só por completar uma Missão de Classe/Origem (arco narrativo definido pelo Mestre). Isso mantém a progressão numérica (PE) e a progressão narrativa (Missões) como eixos separados que não competem pelo mesmo orçamento.
+
+---
+
+## Fase 10 (revisão 2) — Separação em arquivos, Classes/Raças tradicionais, adaptação do resto do sistema
+
+Louis pediu: arquivos separados para Magia, Classes e Raças (em vez do arquivo único da revisão anterior); mais exemplos de Arcanos; Classes e Raças em uma visão mais tradicional de RPG (guerreiro/mago/ladino, elfos/anões/orcs); e adaptação dos outros documentos às novidades.
+
+### Decisão 27: Voltar a 3 arquivos separados
+- **Motivo:** pedido direto de Louis. `MAGIA_CLASSES_RACAS.md` foi removido; o conteúdo foi dividido de volta em `MAGIA.md`, `CLASSES.md` e `RACAS.md`, mantendo os cross-references entre eles (cada um aponta para os outros dois quando relevante) para não perder a coerência que a versão única tinha.
+
+### Decisão 28: Arcanos expandidos de 6 para 12
+- Adicionados: Ar/Vento, Luz, Natureza, Metal, Sangue, Espírito — cobrindo arquétipos tradicionais de RPG que dependem de magia elemental/esotérica (druida → Natureza, clérigo → Luz, necromante/sangue → Sangue/Espírito) sem exigir um sistema novo: todos usam a mesma estrutura de Domínio/Sintoma/Traço de Domínio já validada.
+
+### Decisão 29: Classes reformuladas como arquétipos tradicionais de RPG
+- **Motivo:** pedido direto de Louis. Trocado o conjunto anterior (Guerreiro/Atirador/Ladino/Curandeiro/Sobrevivente/Carismático/Conjurador) por 9 classes no molde clássico: Guerreiro, Bárbaro, Patrulheiro, Ladino, Clérigo, Mago, Druida, Bardo, Paladino — Mago/Druida/Clérigo já vêm com um gancho mecânico para `MAGIA.md` (Pergaminho com desconto, Conexão Arcana grátis, ou ambos), sem que isso represente pontos extras (mesma regra da Decisão 21: Classe empacota escolha, não soma poder).
+
+### Decisão 30: Raças tradicionais (Elfo, Anão, Orc, Halfling, Meio-Elfo) substituindo as genéricas
+- **Motivo:** pedido direto de Louis. Mantidas as duas raças ligadas à ambientação já estabelecida (Tocado pelo Arcano, Enraizado na Infecção) porque continuam úteis e não competem com o pedido — as novas raças tradicionais foram adicionadas ao lado delas, não no lugar. Todas seguem a mesma regra de deslocamento de Atributo (+1/−1, soma sempre 15) e Habilidade Única qualitativa da Decisão 22.
+
+### Decisão 31: Documentos existentes adaptados para referenciar os módulos
+- `REGRAS.md` ganhou uma seção 14 (Módulos Opcionais) resumindo os três e apontando para os arquivos certos.
+- `CRIACAO_PERSONAGEM.md` ganhou um passo 1.1 (Raça e Classe) e notas nos passos 2–4 sobre como eles se encaixam no fluxo já existente, sem mudar a contagem de pontos.
+- `FICHA.md` ganhou campos de Raça/Classe, uma 13ª linha de Perícia (Conjuração), um bloco de Magia (Mana, Conexões Arcanas, Infecção Arcana) e um rastreador de Missões de Classe/Origem.
+- `INFECCAO.md` ganhou uma seção 6 curta apontando para a Infecção Arcana, para quem ler esse arquivo isoladamente não achar estranho a menção em `MAGIA.md`.
+- `MESTRE.md` ganhou uma seção 10 explicando como montar uma Missão de Classe/Origem (o gatilho de progressão dos Estágios 2 e 3).
+- `EQUIPAMENTOS.md` ganhou uma linha para Pergaminhos no catálogo de itens.
+
+---
 *Fases seguintes acrescentam decisões abaixo desta linha, na ordem em que forem tomadas.*

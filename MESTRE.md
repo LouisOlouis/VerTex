@@ -48,5 +48,17 @@ Use a tabela de referência de `INIMIGOS.md`. Regra geral: 2–3 minions Nível 
 
 Pergunte: "isso quebra uma regra de física/lógica do mundo, ou só quebra minha expectativa de cena?" No segundo caso, permita e improvise a Dificuldade (seção 7). Só recuse ações que violem a consistência do mundo já estabelecida — e explique por quê.
 
+## 10. Missões de Classe e de Origem *(se `CLASSES.md`/`RACAS.md` estiverem em uso)*
+
+Um mecanismo de progressão narrativo, separado de PE: a Habilidade Única de Classe/Raça de um personagem evolui completando uma Missão, não gastando pontos.
+
+**O que é:** um arco de 1 a 3 sessões tematicamente ligado à identidade daquele Arquétipo/Origem, terminando em uma cena de clímax onde o personagem confirma ou reafirma o que aquela identidade significa para ele.
+
+**Como montar uma:**
+1. Pergunte o que essa Classe/Origem representa na história pessoal do personagem (a Motivação/Objetivo já definidos na criação, `CRIACAO_PERSONAGEM.md` §1, são o ponto de partida).
+2. Construa uma situação onde o personagem só supera o desafio usando a identidade daquele Arquétipo/Origem da forma mais pura possível (um Guerreiro protegendo alguém sem poder recuar; um Tocado pelo Arcano resistindo à tentação de deixar o elemento decidir por ele).
+3. A cena de clímax precisa ter risco real de falha — não é garantido que o personagem "passe". Falhar não impede tentar de novo depois, só adia o Estágio 2/3 da Habilidade.
+4. A 2ª Missão (para o Estágio 3) deve custar mais narrativamente que a 1ª — normalmente vem depois que o jogador já viveu as consequências de ter o Estágio 2.
+
 ---
 *Ver `PLAYTEST.md` (Fase 8) para cenários de teste recomendados antes de rodar uma campanha completa.*

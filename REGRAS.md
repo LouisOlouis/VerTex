@@ -249,5 +249,17 @@ Cada inimigo ainda precisa de Nome, Categoria, Resistências/Fraquezas (ex: resi
 
 **Validação de quantidade por encontro:** simulado (`/tools/enemy_sim.py`) um PJ médio contra grupos de minions Nível 1. Resultado: 1 PJ vence com folga contra até 2 minions (95%+), enfrenta desafio real contra 3 (54%) e risco alto contra 4+ (11% ou menos). Tabela de referência rápida para o Mestre em `MESTRE.md`.
 
+## 14. Módulos Opcionais
+
+Três sistemas adicionais, cada um independente e opcional — a campanha usa nenhum, um, dois ou os três juntos, sem alterar nada do núcleo acima:
+
+| Módulo | O que adiciona | Arquivo |
+|---|---|---|
+| Magia | uma 13ª Perícia (Conjuração), o recurso Mana, e duas formas de conjurar — Pergaminhos (seguros, mas fixos) e Conexão Arcana (livre, mas arriscada) | `MAGIA.md` |
+| Classes | arquétipos tradicionais de RPG (Guerreiro, Mago, Ladino etc.) que empacotam Atributo Principal, Perícias e a Habilidade inicial — sem somar pontos além do que a criação já dá | `CLASSES.md` |
+| Raças | povos jogáveis (Humano, Elfo, Anão, Orc etc.) que deslocam 1 ponto entre dois Atributos e concedem uma Habilidade Única — também sem somar pontos | `RACAS.md` |
+
+Classes e Raças compartilham um eixo de progressão próprio: a **Habilidade Única** de cada uma evolui em 3 Estágios, e os Estágios 2 e 3 não custam PE — desbloqueiam completando uma Missão de Classe/Origem, guiada pelo Mestre (`MESTRE.md` §10).
+
 ---
 *Próxima fase (Fase 7): Balanceamento matemático consolidado — este documento já vem sendo validado fase a fase, a Fase 7 revisa o conjunto.*

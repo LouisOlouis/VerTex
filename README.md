@@ -21,6 +21,9 @@ Todo número do sistema foi validado por simulação estatística antes de ser f
 | [`HABILIDADES.md`](HABILIDADES.md) | Habilidades Passivas, Ativas e Especiais, com regras para impedir combinações quebradas |
 | [`INFECCAO.md`](INFECCAO.md) | Os 6 Níveis de Infecção, resistência, tratamento e a decisão central de aceitar poder vs. remover |
 | [`MALDICOES.md`](MALDICOES.md) | Maldições modulares, Artefatos e a estrutura mecânica da Wagurita |
+| [`MAGIA.md`](MAGIA.md) | *(módulo opcional)* Pergaminhos, Conexão Arcana, Mana, Infecção Arcana e 12 Arcanos |
+| [`CLASSES.md`](CLASSES.md) | *(módulo opcional)* 9 arquétipos tradicionais de RPG com Habilidade Única progressiva |
+| [`RACAS.md`](RACAS.md) | *(módulo opcional)* Humano, Elfo, Anão, Orc, Halfling e mais, com Habilidade Única progressiva |
 | [`CORRIDAS.md`](CORRIDAS.md) | Corridas e perseguições: Trechos, Manobra Arriscada, Ultrapassagem, veículos e montarias |
 | [`EQUIPAMENTOS.md`](EQUIPAMENTOS.md) | Catálogo de armas, armaduras e itens |
 | [`INIMIGOS.md`](INIMIGOS.md) | Criação rápida de inimigos por Nível + catálogo pronto |
@@ -31,7 +34,7 @@ Todo número do sistema foi validado por simulação estatística antes de ser f
 
 ## O que já está pronto
 
-Personagens, combate, ferimentos e condições, Sorte e Determinação, habilidades, Infecção, Maldições/Artefatos/Wagurita (estrutura), corridas, exploração, conflitos sociais, progressão, equipamentos, criação de inimigos, guia do Mestre, playtest e auditoria de consistência.
+Personagens, combate, ferimentos e condições, Sorte e Determinação, habilidades, Infecção, Maldições/Artefatos/Wagurita (estrutura), corridas, exploração, conflitos sociais, progressão, equipamentos, criação de inimigos, guia do Mestre, playtest, auditoria de consistência, e os módulos opcionais de Magia, Classes e Raças.
 
 ## Nota sobre este README
 

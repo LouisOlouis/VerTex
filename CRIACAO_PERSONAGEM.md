@@ -11,17 +11,23 @@ Antes de qualquer número, defina em uma frase cada:
 - **Motivação** (por que aventura)
 - **Objetivo** (o que busca agora)
 
+## 1.1 Raça e Classe *(opcional — se a campanha usar `RACAS.md` e/ou `CLASSES.md`)*
+
+Se algum desses módulos estiver ativo, escolha agora: eles influenciam como você vai distribuir os Atributos, Perícias e a Habilidade inicial nos passos 2 a 4 abaixo, mas não mudam a quantidade de pontos disponível em nenhum deles.
+
 ## 2. Atributos
 
 Distribua o **array fixo {4, 3, 3, 2, 2, 1}** entre os 6 Atributos (Força, Agilidade, Vigor, Intelecto, Percepção, Vontade) — cada valor do array usado uma única vez. Isso garante que todo personagem comece com o mesmo total (15 pontos), sem cálculo de custo: a diferença entre personagens é **onde** os pontos vão, não quanto cada um tem.
 
+Se usou uma **Classe** (`CLASSES.md`), o Atributo Principal dela recebe o 4 do array. Se usou uma **Raça** (`RACAS.md`), aplique o deslocamento dela (+1/−1) **depois** de distribuir o array — a soma continua 15.
+
 ## 3. Perícias
 
-**6 pontos** para distribuir entre as 12 Perícias. Máximo de **3** em qualquer Perícia na criação (o resto da progressão até 5 vem jogando, com PE — `REGRAS.md` §11).
+**6 pontos** para distribuir entre as 12 Perícias (13, se `MAGIA.md` estiver ativo — Conjuração). Máximo de **3** em qualquer Perícia na criação (o resto da progressão até 5 vem jogando, com PE — `REGRAS.md` §11). Se usou uma Classe, suas 2 Perícias de Classe têm prioridade nesses pontos, mas a distribuição continua livre.
 
 ## 4. Habilidades
 
-Escolha **1 Habilidade Passiva ou Ativa** inicial (`HABILIDADES.md`). Habilidades Especiais não estão disponíveis na criação — elas nascem de Infecção, Maldições, Artefatos ou são compradas depois com PE.
+Escolha **1 Habilidade Passiva ou Ativa** inicial (`HABILIDADES.md`). Habilidades Especiais não estão disponíveis na criação — elas nascem de Infecção, Maldições, Artefatos ou são compradas depois com PE. Se usou uma Classe ou Raça, a Habilidade Única (Estágio 1) dela ocupa essa mesma escolha — não é uma habilidade extra.
 
 ## 5. Equipamento e Recursos
 

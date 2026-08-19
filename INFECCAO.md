@@ -54,5 +54,9 @@ Tratamento bem-sucedido reduz 1 Nível. Dádivas aceitas (seção 3) não são d
 
 Personagens em Nível 3+ são reconhecíveis por NPCs comuns (medo, rejeição, caça). Nível 5+ pode atrair atenção de organizações ou entidades ligadas à origem da Infecção — deixado para o Mestre da campanha definir.
 
+## 6. Infecção Arcana *(se `MAGIA.md` estiver em uso)*
+
+Quem usa Conexão Arcana tem uma trilha de Infecção **separada** desta, com a mesma estrutura de 6 Níveis, mas causada por falha crítica ao canalizar um Arcano em vez de exposição comum. Ver `MAGIA.md` §5.
+
 ---
 *Wagurita, Maldições e Artefatos — incluindo sua interação com a Infecção — em `MALDICOES.md`.*

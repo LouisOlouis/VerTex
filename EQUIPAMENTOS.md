@@ -33,6 +33,7 @@ Tabelas de referência rápida. As regras completas (espaços de inventário, ef
 | Kit de arrombamento | 1 | reduz 1 degrau a Dificuldade de testes de Furtividade/Tecnologia para abrir fechaduras |
 | Lanterna/isqueiro | 1 | remove a penalidade de escuridão em testes de Percepção (definida pelo Mestre por cena) |
 | Rádio/comunicador | 1 | permite coordenação à distância (relevante em Corridas e Exploração) |
+| Pergaminho (Círculo 1–5) | 1 | contém um único feitiço fixo — ver `MAGIA.md` §3 *(só se o módulo de Magia estiver em uso)* |
 
 Ferramentas e kits **não empilham** com outro item de efeito idêntico (mesma regra de `HABILIDADES.md`) — carregar duas cordas não reduz a Dificuldade duas vezes.
 
