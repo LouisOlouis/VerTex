@@ -28,7 +28,6 @@ Igual ao combate: **3 ações por rodada**, entre:
 
 A Margem já usada em todo o sistema controla o ritmo (evita "sim/não" simples); a Manobra Arriscada dá ao competidor atrás uma ferramenta ativa de virada de jogo em vez de deixar a corrida decidida pelo bônus inicial; Ultrapassar e Atacar tornam a posição relativa relevante turno a turno, não só o total de Trechos.
 
-**Validação:** simulado (`/tools/race_sim.py`) confronto entre bônus variados em uma corrida de 8 Trechos usando só a ação Acelerar (sem manobras arriscadas). Resultado: a corrida dura em média 4 a 6 rodadas, tempo compatível com uma cena de tensão sem se arrastar; mas confirma que, **sem a Manobra Arriscada**, a diferença de bônus decide o vencedor de forma quase determinística (91–100% de vitória para quem tem mais bônus). Isso confirma a necessidade da Manobra Arriscada como mecanismo de catch-up — ver `BALANCEAMENTO.md`.
 
 ## 3. Veículos e Montarias
 
@@ -46,4 +45,4 @@ O modificador do veículo soma ao teste de Acelerar/Manobrar, mas **não substit
 Combustível/fôlego/energia é rastreado como um recurso simples: **3 usos** de Acelerar "forçado" (ação extra além das 3 normais, disponível 1x por corrida) antes de precisar de 1 rodada de recuperação sem avançar. Vitória: primeiro a alcançar o Trecho final; numa perseguição (não uma corrida até a meta), vitória é abrir distância de 3+ Trechos do perseguidor ou ser alcançado por ele.
 
 ---
-*Próxima seção (Exploração e Conflitos Sociais) em `REGRAS.md`.*
+

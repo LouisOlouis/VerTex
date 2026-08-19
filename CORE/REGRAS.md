@@ -1,7 +1,5 @@
 # REGRAS — Núcleo do Sistema
 
-> Este arquivo é construído em fases (ver `BALANCEAMENTO.md` para o histórico de decisões). Fase 1 concluída: mecânica central.
-
 ## 1. Mecânica Central
 
 Todo teste segue a mesma fórmula, sem exceções:
@@ -31,8 +29,6 @@ Não existem modificadores soltos, bônus situacionais numéricos ou penalidades
 | 16 | Extremo |
 | 18+ | Excepcional |
 
-**Validação:** testado estatisticamente (`/tools/probability.py`) contra bônus totais (Atributo+Perícia) de 0 a 10. A escala **foi mantida sem alteração** — ela já cria diferenciação clara entre personagens destreinados e especializados sem tornar nenhum resultado garantido ou impossível na faixa jogável (ver `BALANCEAMENTO.md`).
-
 ### 1.3 Ajustando a Dificuldade por situação
 
 Em vez de bônus/penalidades numéricas soltas, condições favoráveis ou desfavoráveis **sobem ou descem um degrau** na tabela de dificuldade (ex: Normal 10 → Fácil 8 com boa preparação; Normal 10 → Difícil 12 sob pressão de tempo). Isso preserva a regra de "uma soma só".
@@ -49,7 +45,6 @@ Em vez de bônus/penalidades numéricas soltas, condições favoráveis ou desfa
 | +3 | Sucesso excepcional |
 | +4 ou mais | Sucesso extraordinário |
 
-**Esta estrutura foi alterada em relação à proposta original** (que era: Falha crítica ≤−5, Falha −4 a −1, Sucesso 0–3, Excepcional +4 a +6, Extraordinário +7+). Motivo documentado em `BALANCEAMENTO.md`: nos testes "equilibrados" (bônus do personagem calibrado para a dificuldade do desafio), a margem máxima possível era +5 — ou seja, **Sucesso Extraordinário era matematicamente impossível** de ocorrer em qualquer teste equilibrado, só aparecendo quando o personagem já estava muito além do desafio (irrelevante na prática). A nova estrutura torna os 5 resultados possíveis em qualquer teste, com Falha Crítica e Sucesso Extraordinário simétricos (8,3% de chance cada em um teste equilibrado).
 
 ## 3. Atributos
 
@@ -64,7 +59,6 @@ Escala **0 a 5**. 0 = ausência/incapacidade notável, 1 = abaixo da média, 2 =
 | Percepção | sentidos, rastreamento, reação |
 | Vontade | resistência mental, coragem, foco sobrenatural |
 
-**Validação da escala 0–5 com 2d6:** confirmada. Combinada à Perícia (também 0–5), o bônus total varia de 0 a 10 — faixa que, testada contra a escala de Dificuldade (seção 1.2), gera a progressão de risco/recompensa desejada sem estourar o teto prático de 2d6 (12) a ponto de tornar dificuldades altas triviais para especialistas médios. Mantida sem alteração.
 
 ## 4. Perícias
 
@@ -81,39 +75,41 @@ Escala **0 a 5**, paralela aos Atributos.
 
 Perícias iniciais (12): Atletismo, Acrobacia, Combate, Furtividade, Pontaria, Investigação, Medicina, Tecnologia, Sobrevivência, Persuasão, Intimidação, Enganação.
 
+A adição de mais pericias, ou niveis de conhecimento sobre elas(tambem valido para atributos), podem ser adicionadas para uma campanha mais interessante, todavia passar dos niveis normais tanto em pericia ou em atributos nescessitam de missões exclusivas de treinamento.
+
 *(Custo de evolução, máximos por Pontos de Evolução e detalhamento de cada perícia entram na Fase 6 — Progressão — para manter os números coerentes com o restante do sistema antes de fixá-los.)*
 
 ## 5. Estatísticas Derivadas
 
-| Estatística | Fórmula | Faixa (Atributo 0–5) |
+| Estatística | Fórmula |
 |---|---|---|
-| Vitalidade | 10 + Vigor × 2 | 10 a 20 |
-| Defesa | 8 + Agilidade | 8 a 13 |
-| Iniciativa | 2d6 + Agilidade + Percepção (rolada 1x por combate) | — |
-| Movimento | 6 + Agilidade (metros por ação de mover) | 6 a 11 |
-| Capacidade de carga | 5 + Força (espaços de inventário) | 5 a 10 |
+| Vitalidade | 10 + Vigor × 2 |
+| Defesa | 8 + Agilidade |
+| Iniciativa | 2d6 + Agilidade + Percepção (rolada 1x por combate) |
+| Movimento | 6 + Agilidade (metros por ação de mover) |
+| Capacidade de carga | 5 + Força (espaços de inventário) |
 
-**Validação (Vitalidade, Defesa, dano das armas):** simulados milhares de combates (`/tools/combat_sim.py`) cruzando bônus de ataque, dado de dano da arma e armadura contra Vitalidade/Defesa de um inimigo padrão. Resultado: um confronto equilibrado dura ~3 rodadas; um personagem fraco sobrevive ~7–8 rodadas (dá tempo de fugir ou pedir ajuda); um personagem especializado derruba em ~2,5 rodadas; armas pesadas matam mais rápido que armas leves, mas terão custo em Movimento/espaços de inventário (seção Equipamentos). **Fórmulas mantidas sem alteração** — ver `BALANCEAMENTO.md`.
+*(Capacidade de carga pode ser modificada com itens de inventario, como mochilas que nao geram peso)*
 
-Defesa usa a mesma escala da tabela de Dificuldade (seção 1.2) — um Mestre já sabe ler "Defesa 10" como "Normal", sem tabela nova para decorar.
+*(Defesa usa a mesma escala da tabela de Dificuldade (seção 1.2) — um Mestre já sabe ler "Defesa 10" como "Normal", sem tabela nova para decorar.)*
 
 ## 6. Sorte
 
 Todo personagem começa com **3 pontos de Sorte**, gastos um de cada vez para:
 
 - **Rerrolar o pior dos dois dados** de um teste que acabou de fazer (o outro dado é mantido). Só pode ser usada depois de ver o resultado, antes de aplicar a Margem.
-- **Reduzir uma consequência de falha em um degrau** (ex: transformar Falha Crítica em Falha simples).
-- **Alterar um pequeno detalhe plausível da cena** (a porta estava destrancada, havia uma corda ali, o guarda tinha acabado de sair) — sujeito à aprovação do Mestre quanto à plausibilidade.
 
-**Validação:** simulado o efeito de "rerrolar o pior dado" (`/tools/luck_sim.py`) contra toda a faixa de dificuldades. O ganho é maior exatamente nos testes de risco médio (+22 a +26 pontos percentuais quando a chance original está entre 40% e 60%) e quase irrelevante em testes já quase garantidos ou quase impossíveis — ou seja, Sorte importa mais nos momentos de maior tensão, sem nunca garantir sucesso (a chance nunca chega a 100%). Isso cumpre a exigência de não destruir o risco do sistema.
+- **Reduzir uma consequência de falha em um degrau** (ex: transformar Falha Crítica em Falha simples).
+
+- **Alterar um pequeno detalhe plausível da cena** (a porta estava destrancada, havia uma corda ali, o guarda tinha acabado de sair) — sujeito à aprovação do Mestre quanto à plausibilidade.
 
 Sorte se recupera apenas entre sessões (1 ponto) ou por decisão do Mestre em momentos marcantes — nunca durante o mesmo confronto em que foi gasta.
 
 ## 7. Determinação
 
-Recurso separado de Sorte, ligado à Vontade: **Determinação inicial = 3 + Vontade** (faixa 3 a 8).
+**Determinação inicial = 3 + Vontade**.
 
-Enquanto Sorte é reativa e pequena (mexe em um resultado já rolado), Determinação é proativa e maior — ativa Habilidades Especiais, resiste a Condições mentais (Amedrontado, Atordoado) e permite agir uma vez além do limite normal quando Incapacitado (ver `COMBATE.md`).
+ Determinação é a vontade de continuar — ativa Habilidades Especiais, resiste a  Condições mentais (Amedrontado, Atordoado) ou fisicas(Fraturas, euxaustao e ferimentos) e permite agir além do limite normal quando Incapacitado (ver `COMBATE.md`).
 
 | Uso | Custo |
 |---|---|
@@ -123,6 +119,10 @@ Enquanto Sorte é reativa e pequena (mexe em um resultado já rolado), Determina
 
 Determinação se recupera com descanso curto (1 ponto a cada cena de respiro) e totalmente ao fim de um arco narrativo — mais devagar que Sorte, mas sem exigir esperar a próxima sessão.
 
+So e possivel resistir a condiçoes fisicas sendo da raça Humano (ver `RACAS.md`)
+
+Agir incapacitado ou com condiçoes fisicas usando determinação nao significa imortalidade, significa apenas ignorar a dor, voce ainda sofre dano e pode morrer
+
 ## 8. Condições
 
 Cada condição tem causa, efeito, duração e forma de remoção próprias — nenhuma duplica o papel de outra.
@@ -131,7 +131,7 @@ Cada condição tem causa, efeito, duração e forma de remoção próprias — 
 |---|---|---|---|
 | Sangrando | dano perfurante/cortante grave | perde 1 Vitalidade no início de cada turno; **escala** (+1 de perda) a cada ação física realizada enquanto sangrando | teste de Medicina (Dificuldade 8) ou 1 rodada de repouso total |
 | Queimando | fogo, ácido | dano fixo (1d4) no início de cada turno por 3 rodadas, não escala | apagar (ação + Dificuldade 8) encerra antes do prazo |
-| Envenenado | veneno, picada, gás | níveis 1–3 acumuláveis; cada nível dá −1 em todos os testes; nível 3 causa Atordoado a cada rodada | teste de Vigor (Dificuldade igual a 8+nível) ou antídoto |
+| Envenenado | veneno, picada, gás | níveis 1–3 acumuláveis; mais detalher no final da pagina | teste de Vigor (Dificuldade igual a 8+nível) ou antídoto |
 | Fraturado | dano grave em combate (Gravemente Ferido + acerto crítico contra) | −2 em testes físicos e Movimento reduzido pela metade; **não causa dano contínuo** (diferencia de Sangrando/Queimando) | tratamento médico prolongado (fora de cena) ou magia/tecnologia específica |
 | Atordoado | atordoamento, choque | perde a próxima ação; efeito único, não acumula | termina automaticamente no início do próximo turno do personagem |
 | Exausto | esforço extremo, falta de descanso | níveis acumuláveis; cada nível dá −1 em testes físicos e reduz 1 ação disponível por rodada ao chegar no nível 3 | descanso adequado remove 1 nível por vez |
@@ -139,12 +139,21 @@ Cada condição tem causa, efeito, duração e forma de remoção próprias — 
 | Infectado | ver `INFECCAO.md` | ver `INFECCAO.md` | ver `INFECCAO.md` |
 | Amaldiçoado | ver `MALDICOES.md` (Fase 4) | ver `MALDICOES.md` | ver `MALDICOES.md` |
 
+Caso esteja envenenado o player sofre debuff na capacidade maxima de vitalidade
+| Nivel de envenenamento | debuff | observaçao |
+|---|---|---|
+| 1 | -10% de vitalidade maxima e -1 em todos os testes | pode ser removida de forma natural com o teste de vigor(Dificuldade igual a 8+nível)|
+| 2 | -25% de vitalidade maxima e -2 em todos os testes | cada teste de vigor desce um nivel de envenenamento |
+| 3 | -50% de vitalidade maxima e -3 em todos os testes | impossivel ser diminuida com teste de vigor, obrigatorio o uso de antidotos, a cada 1 rodada gera atordoamento, testes de vigor servem para impedir o atordoamento na proxima rodada|
+
+Mais de 5+força atordoamentos seguidos leva a Incapacitaçao.
+Incapacitados com envenenamento de nivel 3 morrem de 1 a 2 dias.
+
 **Nota de consistência:** ao contrário das demais linhas desta tabela, Infectado e Amaldiçoado não são uma condição única com um efeito fixo — são **categorias** que apontam para sistemas próprios de múltiplos estágios (Infecção tem 6 Níveis; cada Maldição é uma ficha independente). Estão listadas aqui só para deixar claro que fazem parte da mesma família de "estados alterados" do personagem, não para sugerir que têm um efeito simples como Atordoado ou Exausto.
 
 **Nota de consistência:** Sangrando, Queimando e Envenenado poderiam parecer redundantes (todos causam dano ao longo do tempo) — por isso cada um tem um mecanismo de escalada/remoção diferente: Sangrando pune ação física, Queimando é previsível e temporário, Envenenado ataca a capacidade geral do personagem em vez de só Vitalidade. Fraturado foi deliberadamente desenhado **sem** dano contínuo, para não ser uma quarta variação da mesma ideia.
 
 ---
-*Próxima fase (Fase 4): Infecção, Maldições, Artefatos, Wagurita.*
 
 ## 9. Exploração
 
@@ -173,7 +182,8 @@ Isso reaproveita a Margem central em vez de criar uma tabela de "graus de descob
 
 Toda perícia social (Persuasão, Intimidação, Enganação) usa a mesma fórmula central contra uma nova estatística derivada:
 
-**Resistência Social = 8 + Vontade** (mesma lógica de Defesa = 8 + Agilidade, seção 5 — o Mestre já sabe ler essa escala).
+**Resistência Social = 8 + Vontade** 
+(mesma lógica de Defesa = 8 + Agilidade, seção 5).
 
 ### Quando rolar
 
@@ -188,7 +198,7 @@ Cada personagem tem uma Reputação de −3 a +3 com NPCs ou facções recorrent
 
 ### Negociação (conflito social estendido)
 
-Quando o resultado de uma negociação importante não é binário (ex: fechar um contrato, evitar uma guerra entre facções), use uma versão estendida: cada lado tenta acumular 3 "Pontos de Acordo" antes do outro, com testes alternados de Persuasão/Intimidação/Enganação vs Resistência Social do oponente — mesma estrutura de Margem (sucesso = +1 ponto, excepcional = +2, extraordinário = +3, falha crítica = o oponente ganha 1 ponto). Reaproveita a mesma lógica de "corrida" de pontos já validada em `CORRIDAS.md`, sem introduzir uma mecânica nova.
+Quando o resultado de uma negociação importante não é binário (ex: fechar um contrato, evitar uma guerra entre facções), use uma versão estendida: cada lado tenta acumular 3 "Pontos de Acordo" antes do outro, com testes alternados de Persuasão/Intimidação/Enganação vs Resistência Social do oponente — mesma estrutura de Margem (sucesso = +1 ponto, excepcional = +2, extraordinário = +3, falha crítica = o oponente ganha 1 ponto).
 
 ## 11. Progressão
 
@@ -205,7 +215,6 @@ Personagens evoluem gastando **Pontos de Evolução (PE)**, concedidos pelo Mest
 
 Custo de Atributo é sempre mais caro que o de Perícia equivalente — de propósito: Atributos afetam múltiplas coisas ao mesmo tempo (Vigor sozinho afeta Vitalidade, resistência à Infecção e testes físicos), então custam mais para não tornar "maximizar um Atributo" estritamente superior a diversificar Perícias.
 
-**Validação:** os custos crescem de forma linear/triangular por nível (nunca exponencial, conforme exigido no item 22) — maximizar um único Atributo do zero custa 30 PE no total; maximizar uma única Perícia custa 15 PE. Levar um combo (Atributo+Perícia) de 0 a 5/5 custa 45 PE, contra 18 PE para levar um combo a 3/3. Isso cria uma escolha real entre **profundidade** (poucos combos muito fortes, melhores em testes difíceis) e **amplitude** (vários combos medianos, cobrindo mais situações) — nenhuma das duas domina, porque o sistema já cobre pilares muito diferentes (combate, investigação, social, corrida, infecção) que recompensam amplitude, mas testes de Dificuldade alta (14+) só cedem a quem se especializou (ver tabela de probabilidade em `REGRAS.md`, seção 1.2). Nenhum Atributo ou Perícia ficou sem uso mecânico definido nas fases anteriores — não há "atributo inútil".
 
 ## 12. Equipamentos
 
@@ -247,7 +256,6 @@ Fórmulas: Vitalidade = 8 + Nível×3; Defesa = 8 + Nível; Bônus de Ataque = N
 
 Cada inimigo ainda precisa de Nome, Categoria, Resistências/Fraquezas (ex: resistente a Queimando, fraco contra Furtividade) e Comportamento (1 linha: "ataca o alvo mais fraco", "foge abaixo de 25% de Vitalidade") — ver exemplos em `INIMIGOS.md`.
 
-**Validação de quantidade por encontro:** simulado (`/tools/enemy_sim.py`) um PJ médio contra grupos de minions Nível 1. Resultado: 1 PJ vence com folga contra até 2 minions (95%+), enfrenta desafio real contra 3 (54%) e risco alto contra 4+ (11% ou menos). Tabela de referência rápida para o Mestre em `MESTRE.md`.
 
 ## 14. Módulos Opcionais
 
@@ -262,4 +270,4 @@ Três sistemas adicionais, cada um independente e opcional — a campanha usa ne
 Classes e Raças compartilham um eixo de progressão próprio: a **Habilidade Única** de cada uma evolui em 3 Estágios, e os Estágios 2 e 3 não custam PE — desbloqueiam completando uma Missão de Classe/Origem, guiada pelo Mestre (`MESTRE.md` §10).
 
 ---
-*Próxima fase (Fase 7): Balanceamento matemático consolidado — este documento já vem sendo validado fase a fase, a Fase 7 revisa o conjunto.*
+

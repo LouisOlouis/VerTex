@@ -30,8 +30,6 @@ Regras de criação em `REGRAS.md`, seção 13. Este arquivo traz o catálogo pr
 
 ## Referência rápida de encontro (1 PJ médio)
 
-Validado por simulação (`/tools/enemy_sim.py`):
-
 | Minions Nível 1 enfrentados | Chance de vitória do PJ |
 |---:|---:|
 | 1 | ~100% (trivial) |

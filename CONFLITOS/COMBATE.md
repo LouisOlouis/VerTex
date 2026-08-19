@@ -61,7 +61,7 @@ Tabela base abaixo; catálogo completo com espaços de inventário e observaçõ
 | Rifle | 1d10 | Distância, longo alcance |
 | Arma pesada | 1d12 | Distância, 2 espaços de inventário, recarrega a cada 3 usos |
 
-**Validação:** simulação de milhares de combates (`/tools/combat_sim.py`) confirmou que a tabela de dano original já produz tempos de combate saudáveis (2 a 4 rodadas em confrontos equilibrados) sem alterar os valores. A única adição foi um **custo de oportunidade para armas pesadas** (ocupam 2 espaços e exigem recarga), já que na simulação pura elas matavam desproporcionalmente rápido (2,1 rodadas) sem nenhuma desvantagem — ver `BALANCEAMENTO.md`.
+**custo de oportunidade para armas pesadas** ocupam 2 espaços e exigem recarga
 
 Dano de armas corpo a corpo com Força 4 ou 5 soma +1 ao dado de dano (não recalcula tudo, só ajusta o resultado final).
 
@@ -80,11 +80,21 @@ A Vitalidade não é apenas um contador — cruzar certos limiares muda o estado
 
 Como a Vitalidade (10 + Vigor×2) é sempre um número par, "metade" e "um quarto" resultam em números inteiros — nenhuma divisão quebrada durante o jogo.
 
-**Incapacitação e morte não são a mesma coisa.** Um personagem Incapacitado está fora de ação, mas só morre se sofrer novo dano nesse estado ou falhar em testes de Vigor (Dificuldade 10) a cada rodada sem ser estabilizado (perícia Medicina, teste Dificuldade 8). Isso evita que um único golpe azarado encerre um personagem, mas mantém risco real.
+
 
 ## 7. Fuga
 
 Fugir de combate é um teste de Agilidade + Atletismo (ou Furtividade, se aplicável) vs a Percepção+2 de quem tentaria impedir. Sucesso remove o personagem da cena; falha o mantém no combate, gastando a ação.
+
+E impossivel fugir caso esteja com alguma resistencia por determinaçao ativa
+
+## 8. Morte
+
+**Incapacitação e morte não são a mesma coisa.** Um personagem Incapacitado está fora de ação, mas só morre se sua vitalidade for igual ou menor que o negativo de seu maximo.
+
+A cada rodada sem ser estabilizado (perícia Medicina, teste Dificuldade 8) e nescessario um teste de Vigor(Dificuldade 10), falhas no teste de vigor diminuem 1 de Vitalidade
+
+Isso evita que um único golpe azarado encerre um personagem, mas mantém risco real.
 
 ---
 *Ferimentos: condições específicas (Sangrando, Atordoado etc.) são detalhadas na Fase 3, junto com Sorte e Determinação, para poderem referenciar como esses recursos as mitigam.*

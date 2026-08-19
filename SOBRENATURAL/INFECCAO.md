@@ -16,14 +16,13 @@ A Infecção é rastreada como um **Nível de 0 a 6**, igual para todo personage
 
 Uma exposição (contato com a fonte de Infecção) gera um teste de **Vigor** (exposição física) ou **Vontade** (exposição sobrenatural/mental) contra a **Dificuldade da fonte**, usando a mesma tabela de Dificuldade já usada em todo o sistema (`REGRAS.md`, seção 1.2) — uma fonte "fraca" é Dificuldade 8, uma "extrema" é 16+. Falha aumenta o Nível de Infecção em 1. Falha crítica (Margem ≤ −4) aumenta em 2.
 
-**Por que a Dificuldade não escala automaticamente com o Nível atual:** testamos essa alternativa (`/tools/infection_sim.py`) e ela cria dois problemas — ou o crescimento é rápido demais para personagens fracos e quase impossível para os fortes (achatando a decisão em "construa Vigor/Vontade alto e ignore a mecânica"), ou fica lento demais para todos. Usar a Dificuldade da fonte (decidida pelo Mestre por cena, igual a qualquer outro teste) é mais simples, mais consistente com o resto do sistema e devolve ao Mestre o controle de ritmo — ver `BALANCEAMENTO.md`.
 
 ## 2. Sintomas e Efeitos por Nível
 
 | Nível | Sintomas visíveis | Efeito mecânico (penalidade) | Dádiva disponível (opcional) |
 |---:|---|---|---|
 | 0 Saudável | nenhum | nenhum | — |
-| 1 Exposto | nenhum ainda | nenhum | — |
+| 1 Exposto | tosse constante | nenhum | — |
 | 2 Contaminado | veias escurecidas, olhos alterados | −1 em Vigor e Vontade | 1 Habilidade Especial de Infecção "menor" (ex: sentidos aguçados) |
 | 3 Infectado | sintomas visíveis a qualquer um | −1 em todos os testes | dádiva de nível 2 se intensifica |
 | 4 Degradado | deformações leves, comportamento errático sob estresse | −2 em todos os testes | dádiva poderosa, com custo passivo (ex: −2 na Vitalidade máxima) |

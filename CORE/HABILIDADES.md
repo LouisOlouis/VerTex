@@ -35,4 +35,4 @@ Toda habilidade nova proposta em campanha deve passar neste teste antes de ser a
 | Fúria de Combate | Especial | Ignora a penalidade de Ferido/Gravemente Ferido por 3 rodadas | 2 Determinação | 1 ação | pessoal | 3 rodadas | só pode ser usada se já estiver Ferido; ao terminar, o personagem fica Exausto (nível 1) |
 
 ---
-*Habilidades ligadas à Infecção, Maldições e Wagurita são adicionadas na Fase 4, seguindo este mesmo formato.*
+*Habilidades ligadas à Infecção e Maldições são adicionadas na Fase 4, seguindo este mesmo formato.*

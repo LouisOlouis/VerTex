@@ -23,17 +23,17 @@ Mana se recupera pela metade (arredondado para cima) em um descanso curto, e por
 
 ## 3. Pergaminhos
 
-Um Pergaminho contém **um único feitiço fixo, sem variações** — "Pergaminho de Bola de Fogo" faz bola de fogo, nada mais. É um item consumível (1 espaço de inventário, `EQUIPAMENTOS.md`).
+Um Pergaminho contém **um único feitiço fixo, sem variações de no maximo 5 usos** — "Pergaminho de Bola de Fogo" faz bola de fogo, nada mais. É um item consumível (1 espaço de inventário, `EQUIPAMENTOS.md`).
 
 **Teste para usar:** 2d6 + Intelecto + Conjuração vs Dificuldade do Pergaminho.
 
-| Círculo do Pergaminho | Dificuldade | Custo de Mana | Dado de efeito |
-|---:|---:|---:|---|
-| 1 | 8 | 2 | 1d6 |
-| 2 | 10 | 3 | 1d10 |
-| 3 | 12 | 5 | 2d8 |
-| 4 | 14 | 7 | 2d10 |
-| 5 | 16 | 10 | 3d10 |
+| Círculo do Pergaminho | Dificuldade | Custo de Mana | Dado de efeito | usos |
+|---:|---:|---:|---|---|
+| 1 | 8 | 2 | 1d6 | 5 |
+| 2 | 10 | 3 | 1d10 | 3 |
+| 3 | 12 | 5 | 2d8 | 2 |
+| 4 | 14 | 7 | 2d10 | 2 |
+| 5 | 16 | 10 | 3d10 | 1 |
 
 Resultado pela Margem (`REGRAS.md` §2):
 
@@ -41,15 +41,17 @@ Resultado pela Margem (`REGRAS.md` §2):
 |---|---|---|
 | Falha crítica | nada acontece | **destruído** — se desfaz sem efeito; o Mana não é gasto |
 | Falha | nada acontece | intacto — pode tentar de novo depois |
-| Sucesso | efeito normal | **consumido** |
-| Sucesso excepcional | efeito ampliado (+2 no dado) | consumido |
-| Sucesso extraordinário | efeito ampliado (dado em dobro, usa o maior) | consumido |
+| Sucesso | efeito normal | **1 de uso** |
+| Sucesso excepcional | efeito ampliado (+2 no dado) | 1 de uso |
+| Sucesso extraordinário | efeito ampliado (dado em dobro, usa o maior) | nao sofre dano de uso |
 
 **Por que Falha Crítica não causa Infecção Arcana:** um Pergaminho já fez o trabalho difícil de estabilizar o feitiço antes de chegar às suas mãos — o risco foi pago por quem o escreveu, não por quem o usa. É isso que torna Pergaminhos a forma "segura" de fazer magia: previsíveis, descartáveis, sem risco pessoal, ao custo de nunca fazerem nada além do que já vêm prontos para fazer.
 
 ## 4. Conexão Arcana
 
 Um personagem pode se conectar com um **Arcano** (um elemento ou força — lista completa na seção 6). A Conexão tem um **Nível (0 a 5)** por Arcano, comprado com PE (mesmo custo de Perícia: 1×novo nível — `REGRAS.md` §11), independente para cada Arcano que o personagem desenvolver.
+
+Uma pessoa comum so pode se conectar com no maximo 2 arcanos.
 
 **Com um Arcano conectado, você pode tentar fazer o que quiser dentro do domínio daquele elemento** — não existe lista fixa de feitiços. A única barreira real é o Nível de Conexão, que limita o quão ambicioso o efeito pode ser:
 
@@ -72,6 +74,10 @@ Resultado pela Margem: igual à tabela de Pergaminhos (Sucesso = efeito pedido; 
 
 Falha Crítica usando Conexão Arcana significa que **a alma e o corpo do personagem fraquejaram diante do elemento**. Isso gera (ou aumenta) a **Infecção Arcana** — uma trilha separada da Infecção comum (`INFECCAO.md`), usando exatamente a mesma estrutura de 6 Níveis, dádivas e tratamento, só que com sintomas e dádivas descritos pelo Arcano específico (seção 6).
 
+A partir do nivel 1 de infecçao arcana o infectado passa a ter sonhos onde pode  ceder/faquejar perante ao arcano, ou negar sua natureza
+ceder ao arcano aumenta 1 nivel de infecçao
+
+
 | Nível | Estado |
 |---:|---|
 | 0 | Saudável |
@@ -84,7 +90,9 @@ Falha Crítica usando Conexão Arcana significa que **a alma e o corpo do person
 
 As regras de aceitar dádiva vs. tratar (`INFECCAO.md` §3–4) valem exatamente iguais aqui.
 
-**Domínio (mente fraca é influenciada, não necessariamente para pior):** a partir do Nível 3 de Infecção Arcana, toda vez que o personagem usa aquele Arcano, ele faz um teste de Vontade (Dificuldade 8+Nível). Falha significa que o Arcano influencia uma decisão importante da cena — o jogador ainda decide a ação, mas ela precisa se alinhar com a natureza do elemento (ver "Traço de Domínio" na seção 6). Em troca, o personagem ganha **+2 no próximo teste que seguir esse comportamento**.
+**Domínio (mente fraca é influenciada, não necessariamente para pior):** a partir do Nível 3 de Infecção Arcana, o infectado começa a ouvir a voz do arcano o influenciando, toda vez que o personagem usa aquele Arcano, ele faz um teste de Vontade (Dificuldade 8+Nível). Falha significa que o Arcano influencia uma decisão importante da cena — o jogador ainda decide a ação, mas ela precisa se alinhar com a natureza do elemento (ver "Traço de Domínio" na seção 6). Em troca, o personagem ganha **+2 no próximo teste que seguir esse comportamento**.
+
+No nivel 6 o personagem se torna um arauto do arcano
 
 ## 6. Arcanos
 

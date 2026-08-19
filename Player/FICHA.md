@@ -1,21 +1,39 @@
 # FICHA DE PERSONAGEM
 
-**Nome:** ___________________ **Conceito:** ___________________
+**Nome:** ___________________ 
+**Conceito:** ___________________
 **Origem (narrativa):** ___________________
-**Raça:** ___________________ **Classe:** ___________________
+**Raça:** ___________________ 
+**Classe:** ___________________
 **História:** ________________________________________________
-**Motivação:** ___________________ **Objetivo:** ___________________
+**Motivação:** ___________________ 
+**Objetivo:** ___________________
 
 ## Atributos (array {4,3,3,2,2,1}, + deslocamento de Raça se houver)
-Força ___ · Agilidade ___ · Vigor ___ · Intelecto ___ · Percepção ___ · Vontade ___
+Força ___ · 
+Agilidade ___ · 
+Vigor ___ · 
+Intelecto ___ · 
+Percepção ___ · 
+Vontade ___
 
-## Perícias (0–5, começa com 6 pontos [7 se Humano], máx. 3 na criação)
-Atletismo ___ Acrobacia ___ Combate ___ Furtividade ___ Pontaria ___ Investigação ___
-Medicina ___ Tecnologia ___ Sobrevivência ___ Persuasão ___ Intimidação ___ Enganação ___
+## Perícias (0–5, começa com 6 pontos , máx. 3 na criação)
+Atletismo ___ 
+Acrobacia ___ 
+Combate ___ 
+Furtividade ___ 
+Pontaria ___ 
+Investigação ___
+Medicina ___ 
+Tecnologia ___ 
+Sobrevivência ___ 
+Persuasão ___ 
+Intimidação ___ 
+Enganação ___
 Conjuração ___ *(só se `MAGIA.md` estiver em uso)*
 
-## Estatísticas Derivadas
-Vitalidade (10+Vigor×2): ___ Atual: ___
+## Estatísticas Derivadas(fazer conta)
+Vitalidade (10+Vigor×2): ___ · Atual: ___
 Defesa (8+Agilidade): ___
 Iniciativa (base Agilidade+Percepção, +2d6 na hora): ___
 Movimento (6+Agilidade): ___
@@ -24,7 +42,7 @@ Resistência Social (8+Vontade): ___
 
 ## Recursos
 Sorte: ○ ○ ○ (3 fixos, +1 se Pequenino)
-Determinação (3+Vontade): ___ atual: ___
+Determinação (3+Vontade): ___ · atual: ___
 
 ## Estado
 ☐ Saudável ☐ Ferido ☐ Gravemente Ferido ☐ Incapacitado

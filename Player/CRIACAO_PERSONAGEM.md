@@ -31,14 +31,17 @@ Escolha **1 Habilidade Passiva ou Ativa** inicial (`HABILIDADES.md`). Habilidade
 
 ## 5. Equipamento e Recursos
 
-- **Capacidade de carga:** 5 + Força espaços (`EQUIPAMENTOS.md`).
+- **Capacidade de carga:** (5 + Força) espaços (`EQUIPAMENTOS.md`).
 - **Pacote inicial:** 1 arma à escolha, 1 item de qualquer categoria, roupas/ferramentas do conceito (sem custo de espaço, é vestimenta).
 - **Sorte:** 3 (fixo para todos, `REGRAS.md` §6).
 - **Determinação:** 3 + Vontade (`REGRAS.md` §7).
 
 ## 6. Estatísticas Derivadas (automáticas)
 
-Vitalidade = 10+Vigor×2 · Defesa = 8+Agilidade · Iniciativa = 2d6+Agilidade+Percepção · Movimento = 6+Agilidade (`REGRAS.md` §5).
+Vitalidade = 10+Vigor×2 ·
+Defesa = 8+Agilidade ·
+Iniciativa = 2d6+Agilidade+Percepção ·
+Movimento = 6+Agilidade (`REGRAS.md` §5).
 
 ## 7. Exemplos (mesmo total de pontos, sem combinação obviamente superior)
 
@@ -63,7 +66,6 @@ Habilidade: Fúria de Combate trocada por equivalente ligado a Vontade (mesmo cu
 Vitalidade 16 · Defesa 10 · Determinação 7 (a mais alta dos três).
 **Ponto fraco:** Intelecto 1 — praticamente incapaz em Tecnologia/Investigação técnica.
 
-**Por que nenhum domina:** o array de Atributos é sempre o mesmo total (15) e as Perícias sempre 6 pontos — cada personagem só pode ser realmente bom em 1–2 pilares (combate, investigação, social/sobrevivência), nunca em todos, porque o total de pontos nunca muda. Isso é a mesma lógica de profundidade-vs-amplitude já validada na Progressão (`BALANCEAMENTO.md`, Decisão 17), só que travada na criação para garantir personagens diferenciados desde o início.
 
 ---
 *Ficha textual pronta para preencher em `FICHA.md`.*

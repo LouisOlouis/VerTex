@@ -2,7 +2,6 @@
 
 Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dificuldade**. Rápido de rodar na mesa, com profundidade tática em combate, investigação, corridas e conflitos sociais — e uma mecânica própria de **Infecção** que transforma corrupção/poder sobrenatural em decisões reais de risco e recompensa, não em uma barra de dano com nome diferente.
 
-Todo número do sistema foi validado por simulação estatística antes de ser fixado (`/tools`), e todo desvio em relação à primeira versão de uma regra está documentado, com o motivo, em [`BALANCEAMENTO.md`](PLAYTEST/BALANCEAMENTO.md).
 
 ## Por onde começar
 
