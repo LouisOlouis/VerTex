@@ -377,61 +377,69 @@ O Tocado canaliza diretamente seu Arcano através do próprio corpo.
 
 ---
 
-## Enraizado na Infecção
+## Infectado
 
-Sobreviveu a uma exposição severa antes mesmo da história começar. A Infecção não é apenas algo que possui: ela faz parte de seu corpo.
+A Infecção não é apenas uma condição adquirida: ela se tornou parte permanente do corpo do personagem. Um Infectado começa a campanha já contaminado e aprendeu a extrair algum benefício daquilo que deveria destruí-lo.
 
 **Requer:** `INFECCAO.md`
 
 * **Deslocamento:** Vigor +1 / Agilidade −1
-* **Restrição:** começa com **Nível de Infecção 2**, que não pode ser removido por tratamento comum.
-* Não pode adquirir uma segunda Infecção enquanto possuir esta característica racial.
+* **Restrição:** começa no **Nível de Infecção 2** e já aceitou a Dádiva desse nível.
+* A Infecção racial usa a **mesma trilha de Infecção de 0 a 6** do personagem. Ela não cria uma segunda trilha.
+* Como a Dádiva de Nível 2 foi aceita na criação, o Nível de Infecção **não pode ser reduzido abaixo de 2 por tratamento comum**.
+* O personagem não pode recusar ou remover a Dádiva racial de Nível 2.
 
-### Habilidade Passiva — Sangue Contaminado
+### Habilidade Passiva — Hospedeiro Adaptado
 
-O corpo do personagem aprendeu a conviver com a Infecção e transformou parte de suas consequências em vantagens.
+O corpo do Infectado se adaptou à própria contaminação. Ele não deixa de sofrer as consequências da Infecção, mas consegue transformar parte delas em vantagens específicas.
 
 **Estágio 1**
 
-* Começa com **1 Dádiva de Infecção de Nível 2** já aceita.
-* Não pode adquirir outra Infecção devido à imunossupressão provocada pela Infecção existente.
 * Começa com **Nível de Infecção 2**.
+* Começa com **1 Dádiva de Infecção de Nível 2 já aceita**, escolhida de acordo com as regras de `INFECCAO.md`.
+* A Dádiva aceita continua existindo mesmo se algum efeito reduzir temporariamente o Nível de Infecção.
+* Não recebe uma segunda trilha ou uma Infecção adicional: qualquer nova exposição apenas interage com a trilha normal de Infecção.
 
 **Estágio 2**
 
 * Mantém os benefícios do Estágio 1.
-* Os **Debuffs provenientes da Infecção escolhida podem se transformar em Buffs**, conforme sua natureza.
-* O efeito deve ser definido individualmente para cada Infecção, evitando transformar qualquer penalidade arbitrária em bônus.
+* Ao atingir um Nível de Infecção que ofereça uma nova Dádiva e **aceitá-la**, pode adaptar **1 penalidade diretamente causada por essa Dádiva**, transformando-a em um benefício equivalente e tematicamente coerente.
+* A transformação deve ser definida pelo Mestre e pelo jogador quando a Dádiva for aceita.
+* As penalidades gerais do Nível de Infecção (`−1`, `−2` ou `−3` nos testes, por exemplo) **não podem ser convertidas em bônus** por esta habilidade.
+* A adaptação não remove custos, riscos ou efeitos narrativos da Dádiva. Ela apenas altera um de seus efeitos negativos específicos.
 
 **Estágio 3**
 
 * Mantém os benefícios anteriores.
-* Caso alcance o **Nível 6 de Infecção** e normalmente deixasse de ser um personagem jogável pelas regras de `INFECCAO.md`, recebe uma exceção racial e **permanece jogável**.
-* Os efeitos do Nível 6 continuam existindo normalmente.
+* Ao alcançar o **Nível de Infecção 6**, não passa automaticamente ao controle do Mestre, conforme a exceção racial definida em `INFECCAO.md`.
+* Ainda sofre os efeitos do Nível 6 e continua sujeito às soluções narrativas necessárias para encerrar a Transformação.
+* A exceção não remove a Infecção, suas consequências ou a necessidade de tratamento especial.
 
 ### Habilidade Ativa — Surto de Infecção
 
-O personagem canaliza sua Infecção de forma agressiva, forçando a própria contaminação a agir em seu favor.
+O Infectado força a própria Infecção a se manifestar de maneira controlada, explorando sua adaptação sem ignorar as regras da trilha de Infecção.
 
 **Estágio 1**
 
 * **Custo:** 1 Determinação.
-* Ao usar antes de uma abilidade de Infecção, seu **Nível de Infecção não aumenta**.
+* Ao utilizar uma **Dádiva ou habilidade de Infecção** que normalmente aumentaria o Nível de Infecção como parte de seu próprio efeito, o aumento é ignorado.
+* Esta habilidade não impede aumentos causados por **exposição, falha ou falha crítica** em testes de resistência à Infecção.
 * Pode ser utilizada **1 vez por cena**.
 
 **Estágio 2**
 
 * **Custo:** 1 Determinação.
-* Ao usar antes de uma manifestação ou efeito de Infecção, é possível **reduzir em 25% a dificuldade** do efeito, conforme a regra de Infecção envolvida.
+* Antes de usar uma Dádiva ou manifestação de Infecção que exija um teste, recebe **−2 na Dificuldade desse teste**.
+* O efeito não reduz o Nível de Infecção e não altera a Dificuldade da fonte quando o personagem estiver resistindo a uma exposição.
 * Pode ser utilizada **1 vez por cena**.
 
 **Estágio 3**
 
 * **Custo:** 2 Determinação.
-* Ao usar antes de uma manifestação ou efeito de Infecção, é possível **reduzir em 50% a dificuldade** do efeito, conforme a regra de Infecção envolvida.
+* Antes de usar uma Dádiva ou manifestação de Infecção que exija um teste, recebe **−4 na Dificuldade desse teste**.
+* O efeito não reduz o Nível de Infecção e não altera a Dificuldade da fonte quando o personagem estiver resistindo a uma exposição.
+* Se a manifestação usada normalmente exigiria um aumento de Infecção, o aumento continua sendo aplicado.
 * Pode ser utilizada **1 vez por cena**.
-
----
 
 # 3. Progressão das Habilidades Únicas
 

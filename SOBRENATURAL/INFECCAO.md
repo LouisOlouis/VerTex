@@ -1,6 +1,6 @@
 # INFECÇÃO
 
-A Infecção é rastreada como um **Nível de 0 a 6**, igual para todo personagem, independente de origem narrativa (mordida, gás, ritual, artefato corrompido — o Mestre define a fonte).
+A Infecção é rastreada como um **Nível de 0 a 6**, usando uma única trilha por personagem, independente de origem narrativa (mordida, gás, ritual, artefato corrompido — o Mestre define a fonte). A raça **Infectado**, de `RACAS.md`, usa esta mesma trilha e não cria uma Infecção separada.
 
 | Nível | Estado |
 |---:|---|
@@ -14,7 +14,7 @@ A Infecção é rastreada como um **Nível de 0 a 6**, igual para todo personage
 
 ## 1. Adquirir e Resistir
 
-Uma exposição (contato com a fonte de Infecção) gera um teste de **Vigor** (exposição física) ou **Vontade** (exposição sobrenatural/mental) contra a **Dificuldade da fonte**, usando a mesma tabela de Dificuldade já usada em todo o sistema (`REGRAS.md`, seção 1.2) — uma fonte "fraca" é Dificuldade 8, uma "extrema" é 16+. Falha aumenta o Nível de Infecção em 1. Falha crítica (Margem ≤ −4) aumenta em 2.
+Uma exposição (contato com a fonte de Infecção) gera um teste de **Vigor** (exposição física) ou **Vontade** (exposição sobrenatural/mental) contra a **Dificuldade da fonte**, usando a mesma tabela de Dificuldade já usada em todo o sistema (`REGRAS.md`, seção 1.2) — uma fonte "fraca" é Dificuldade 8, uma "extrema" é 16+. Falha aumenta o Nível de Infecção em 1. Falha crítica (Margem ≤ −4) aumenta em 2. Esses aumentos também se aplicam ao Infectado; suas habilidades raciais só podem impedir ou modificar um aumento quando a própria regra da habilidade disser explicitamente.
 
 
 ## 2. Sintomas e Efeitos por Nível
@@ -38,6 +38,16 @@ A partir do Nível 2, ao subir de nível o jogador escolhe:
 
 Essa escolha é o núcleo de risco/recompensa pedido: poder imediato e permanente vs. reversibilidade total.
 
+### Interação com a raça Infectado
+
+A raça **Infectado** (`RACAS.md`) começa no **Nível 2** e já possui a **Dádiva de Nível 2 aceita**. Portanto, aplica-se normalmente a regra desta seção: o Nível não pode ser reduzido abaixo de 2 por tratamento comum.
+
+A Dádiva racial continua sendo uma Dádiva normal de Infecção. Ela deve seguir as regras de custo, risco e permanência desta seção, sem criar uma trilha ou uma categoria especial de Infecção.
+
+No **Estágio 2** da Habilidade Passiva racial, o personagem pode adaptar uma penalidade específica de uma Dádiva aceita. Isso não permite remover ou converter as penalidades gerais do Nível de Infecção.
+
+No **Estágio 3**, o Infectado é uma exceção explícita à regra de Nível 6: ele permanece como personagem jogável, mas a Transformação continua ativa e seus efeitos não são ignorados. A campanha ainda precisa fornecer uma forma de cura, contenção ou solução narrativa para encerrar o estado.
+
 ## 4. Diminuir (Tratamento)
 
 | Nível atual | Tratamento necessário | Teste |
@@ -47,7 +57,7 @@ Essa escolha é o núcleo de risco/recompensa pedido: poder imediato e permanent
 | 4–5 | recurso raro (antídoto, ritual) definido pela campanha | Medicina ou Vontade, Dificuldade 14, + o recurso |
 | 6 | não removível por tratamento comum | requer solução narrativa específica da campanha |
 
-Tratamento bem-sucedido reduz 1 Nível. Dádivas aceitas (seção 3) não são desfeitas mesmo com a redução do Nível — o personagem mantém a marca permanente daquele estágio.
+Tratamento bem-sucedido reduz 1 Nível. Porém, uma Dádiva aceita impede que o Nível seja reduzido abaixo do estágio em que ela foi aceita, salvo Artefato ou ritual específico da campanha. Dádivas aceitas não são desfeitas pela redução do Nível; o personagem mantém a marca permanente daquele estágio.
 
 ## 5. Consequências Narrativas
 
