@@ -1,4 +1,4 @@
-# [Nome do Sistema] — RPG de Mesa
+# VerTex — RPG de Mesa
 
 Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dificuldade**. Rápido de rodar na mesa, com profundidade tática em combate, investigação, corridas e conflitos sociais — e uma mecânica própria de **Infecção** que transforma corrupção/poder sobrenatural em decisões reais de risco e recompensa, não em uma barra de dano com nome diferente.
 
