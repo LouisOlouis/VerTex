@@ -56,6 +56,13 @@ Mana (4+Intelecto+Vontade, +crescimento por uso): ___ máximo · ___ atual
 Usos Mágicos Acumulados: ___ (a cada 8, +1 Mana máx., teto +5)
 Conexões Arcanas: Arcano ___ Nível ___ · Arcano ___ Nível ___
 Infecção Arcana: ___ (0–6) por Arcano — Arcano ___ Nível ___
+Cajado equipado: ___________________ (Arcano ___ · bônus ___)
+
+## Alquimia *(só se `ALQUIMIA.md` estiver em uso)*
+Pedra Filosofal: ☐ possui
+Joia de Azoth: ☐ possui — tipos simultâneos cheios (evolução aos 5+): ___
+Essência Arcana guardada: ___________________ (Arcano: quantidade)
+Frascos não decompostos: ___
 
 ## Habilidades
 | Nome | Categoria/Estágio | Efeito | Custo | Ação | Duração |

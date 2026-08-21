@@ -450,7 +450,7 @@ Não nasceu — foi feito. Um Homúnculo é o produto de um processo alquímico,
 **Requer:** `ALQUIMIA.md`
 
 * **Deslocamento:** Intelecto +1 / Vigor −1
-* **Restrição:** um corpo montado, não gerado, recupera apenas metade da Vitalidade em um Descanso Longo comum — a outra metade exige tratamento alquímico específico (uma receita de `ALQUIMIA.md` voltada a isso, ou Downtime dedicado).
+* **Restrição:** um corpo montado, não gerado, recupera apenas metade da Vitalidade em qualquer um dos dois caminhos automáticos de recuperação de `REGRAS.md` §15 (Descanso Longo, ou a atividade "Recuperação" de `DOWNTIME.md`) — a outra metade exige tratamento alquímico específico (uma receita de `ALQUIMIA.md` voltada a isso, ou Downtime dedicado).
 
 ### Habilidade Passiva — Sangue de Azoth
 

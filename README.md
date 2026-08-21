@@ -19,7 +19,7 @@ Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dif
 | [`COMBATE.md`](CONFLITOS/COMBATE.md) | Sistema de combate completo: ações, iniciativa, ataque, defesa, dano, ferimentos, fuga |
 | [`HABILIDADES.md`](CORE/HABILIDADES.md) | Habilidades Passivas, Ativas e Especiais, com regras para impedir combinações quebradas |
 | [`INFECCAO.md`](SOBRENATURAL/INFECCAO.md) | Os 6 Níveis de Infecção, resistência, tratamento e a decisão central de aceitar poder vs. remover |
-| [`MALDICOES.md`](SOBRENATURAL/MALDICOES.md) | Maldições modulares, Artefatos (incluindo o Livro da Gula) e a estrutura mecânica da Wagurita |
+| [`MALDICOES.md`](SOBRENATURAL/MALDICOES.md) | Maldições modulares e Artefatos (incluindo o Livro da Gula) |
 | [`MAGIA.md`](SOBRENATURAL/MAGIA.md) | *(módulo opcional)* Pergaminhos (uso e produção), Conexão Arcana, Mana, Infecção Arcana, 12 Arcanos e Cajados |
 | [`ALQUIMIA.md`](CORE/ALQUIMIA.md) | *(módulo opcional, requer Magia)* Ramo de Crafting: Pedra Filosofal, Joia de Azoth, extração e tabela de Essência Arcana por Arcano, receitas de poções |
 | [`CLASSES.md`](Player/CLASSES.md) | *(módulo opcional)* 10 arquétipos tradicionais de RPG com Habilidade Única progressiva, incluindo o Transmutador (Alquimia) |

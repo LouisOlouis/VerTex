@@ -68,4 +68,4 @@ Personagens em Nível 3+ são reconhecíveis por NPCs comuns (medo, rejeição, 
 Quem usa Conexão Arcana tem uma trilha de Infecção **separada** desta, com a mesma estrutura de 6 Níveis, mas causada por falha crítica ao canalizar um Arcano em vez de exposição comum. Ver `MAGIA.md` §5.
 
 ---
-*Wagurita, Maldições e Artefatos — incluindo sua interação com a Infecção — em `MALDICOES.md`.*
+*Maldições e Artefatos — incluindo sua interação com a Infecção — em `MALDICOES.md`.*

@@ -65,7 +65,7 @@ Scripts de apoio em `/tools/probability.py`.
 - **Solução:** 3 + Vontade (faixa 3 a 8), recuperação parcial em descanso curto, total ao fim de arco narrativo — deliberadamente mais lenta que Sorte para preservar a diferença de função entre os dois recursos.
 
 ### Decisão 10: Habilidades — regras anti-quebra formalizadas
-- **Motivo:** o prompt pede apenas "crie regras para impedir habilidades quebradas" sem especificar quais. Formalizei 5 regras de auditoria (não substituir rolagem por sucesso automático, teto de bônus atrelado ao Atributo, proibição de ignorar Defesa/Vitalidade/Dificuldade por completo, duração obrigatória em Ativas/Especiais, não-empilhamento de efeitos idênticos) para que qualquer habilidade futura (Infecção, Maldições, Wagurita) possa ser auditada objetivamente, em vez de caso a caso.
+- **Motivo:** o prompt pede apenas "crie regras para impedir habilidades quebradas" sem especificar quais. Formalizei 5 regras de auditoria (não substituir rolagem por sucesso automático, teto de bônus atrelado ao Atributo, proibição de ignorar Defesa/Vitalidade/Dificuldade por completo, duração obrigatória em Ativas/Especiais, não-empilhamento de efeitos idênticos) para que qualquer habilidade futura (Infecção, Maldições) possa ser auditada objetivamente, em vez de caso a caso.
 
 ### Decisão 11: Condições — Fraturado sem dano contínuo
 - **Problema identificado:** Sangrando, Queimando, Envenenado e uma leitura ingênua de Fraturado poderiam todos virar "dano por rodada com nome diferente" — redundância que o prompt pede para evitar (item 11).
@@ -73,7 +73,7 @@ Scripts de apoio em `/tools/probability.py`.
 
 ---
 
-## Fase 4 — Infecção, Maldições, Artefatos, Wagurita
+## Fase 4 — Infecção, Maldições, Artefatos
 
 ### Decisão 12: Dificuldade de resistência à Infecção — NÃO escala automaticamente com o Nível
 - **Regra original:** implícita — "crie regras completas para adquirir, resistir, aumentar, diminuir".
@@ -84,9 +84,6 @@ Scripts de apoio em `/tools/probability.py`.
 
 ### Decisão 13: Estrutura de Maldições e Artefatos — campos padronizados
 - **Motivo:** o prompt já define quais campos cada maldição/artefato deve ter; a decisão de design foi reaproveitar a escala de penalidade −1/−2/−3 (já usada em Condições e Ferimentos) em vez de inventar uma nova escala numérica, e reaproveitar as regras anti-quebra de `HABILIDADES.md` para o "Poder" de Artefatos — reduz a quantidade de sistemas numéricos paralelos que o Mestre precisa lembrar.
-
-### Decisão 14: Wagurita — estrutura sem lore
-- Conforme instrução explícita do prompt, nenhum detalhe de história foi inventado. A estrutura mecânica reaproveita integralmente os sistemas de Habilidades, Infecção e Maldições já validados, para que a Wagurita não exija uma mecânica exclusiva quando a campanha definir seu conteúdo.
 
 ---
 
@@ -268,9 +265,28 @@ Bestiário fechado em 30 entradas (10+8+6+4+2), conforme o item 10 do escopo ori
 
 ---
 
-## Fase 14 — Aventura Introdutória
+## Fase 15 — Alquimia, Pergaminhos (produção), Cajados, Livro da Gula
 
-### Decisão 40: Tutorial ensina jogando, sem seção de regras separada
-- **Motivo:** o escopo pedia uma aventura que funcionasse como tutorial. Em vez de preceder a aventura com um resumo de regras (redundante com `REFERENCIA_RAPIDA.md`), cada cena declara qual regra ela pratica e remete ao arquivo fonte — o grupo aprende no momento em que a regra é usada pela primeira vez, não antes.
-- **Cena 4 (decisão sem teste) foi incluída deliberadamente** para reforçar a regra de `REGRAS.md` §10 de que nem toda cena precisa de rolagem — um ponto que costuma ser mal aprendido por grupos novos que tentam rolar dados para tudo.
-- **Nenhum número novo:** a aventura usa apenas inimigos e Dificuldades já existentes (Guarda Desatento e Enxame Contaminado do catálogo da Fase 13, Dificuldades da tabela central) — não exigiu playtest adicional além da validação já feita nos números que ela reutiliza.
+### Decisão 41: Dificuldade/Custo de Mana da Alquimia — reaproveitados dos Círculos de Pergaminho, não recalculados
+- **Motivo:** a tabela de Tiers de `ALQUIMIA.md` §5 (Dificuldade 8/10/12/14/16, Mana 2/3/5/7/10) é uma cópia direta da tabela de Círculos de `MAGIA.md` §3, já validada na Fase 10. Como nenhum Atributo, bônus ou fórmula de teste foi alterado, esses números **herdam** a validação existente — não foi necessário rodar `/tools` de novo.
+
+### Decisão 42: Rendimento de Essência (3 unidades por item Raro) — calibrado por proporção, não por simulação
+- **Motivo:** como a quantidade de Essência não afeta diretamente a probabilidade de um teste (2d6+Atributo+Perícia vs Dificuldade continua igual, com ou sem material suficiente — falta de Essência apenas impede a tentativa), esse número segue o mesmo precedente da Decisão 35 (preços de Economia): calibrado por proporção, reaproveitando a proporção "1 espaço = 3 unidades" já usada para Componentes Comuns em `CRAFTING.md` §2, em vez de inventar um múltiplo novo.
+- **Consequência calculada:** uma poção de Tier 5 (5 unidades por Arcano, 2 Arcanos) exige 10 unidades de Essência — no mínimo 4 itens Raros (ganchos de aventura), já que cada item só rende Essência de um único Arcano. Isso é deliberado: Tier 5 deveria custar uma cadeia de aventura, não uma tarde de Downtime.
+
+### Decisão 43: Bônus de Cajado (+1/+2 conforme o Cabo) — segue o teto de "Ferramenta especializada"
+- **Motivo:** `REGRAS.md` §12 já estabelece o precedente de Ferramenta especializada concedendo +1 a um teste específico, sem simulação própria (é um bônus de equipamento, não de Habilidade — não está sujeito ao teto de `HABILIADES.md` §2, que rege apenas Habilidades). O Cabo Raro recebe +2 em vez de +1 como exceção deliberada, justificada por exigir um Componente Raro (`CRAFTING.md` §2) — mesmo grau de investimento que já justifica exceções em outras partes do sistema (ex: Habilidade Ativa de Estágio 3 chegando a valores que Estágio 1 não alcança).
+
+### Decisão 44: Pedra Filosofal/Joia de Azoth excluídas do item grátis de `CRIACAO_PERSONAGEM.md`
+- **Problema identificado:** o pacote inicial de personagem (§5) dá "1 item de qualquer categoria" sem restrição de preço — o que permitiria começar com uma Pedra Filosofal (400 Créditos) ou uma Joia de Azoth (800 Créditos) de graça, muito acima de qualquer outro item inicial e anulando o investimento caro calibrado em `ECONOMIA.md` §3.1.
+- **Solução:** `CRIACAO_PERSONAGEM.md` §5 agora exclui explicitamente Pedra Filosofal e Joia de Azoth do item gratuito — precisam ser compradas ou conquistadas em jogo, mesmo por um Transmutador.
+
+### Decisão 45: Restrição do Homúnculo cobre os dois caminhos automáticos de recuperação de Vitalidade
+- **Problema identificado:** a restrição original amarrava a metade de recuperação só ao Descanso Longo (`REGRAS.md` §15), mas a atividade "Recuperação" de `DOWNTIME.md` também cura Vitalidade automaticamente, sem teste — criando um atalho que ignorava a restrição racial por completo. (O terceiro caminho de §15, "sem descanso", já não recupera Vitalidade sozinho, então não precisa de restrição adicional.)
+- **Solução:** a restrição do Homúnculo (`RACAS.md`) passou a cobrir os dois caminhos automáticos de `REGRAS.md` §15 igualmente, não só o Descanso Longo.
+
+### Nota de escopo
+Alquimia, Pergaminhos (produção), Cajados e o Livro da Gula são aditivos aos módulos `CRAFTING.md` e `MAGIA.md` — reaproveitam a Margem de Sucesso, a tabela de Dificuldade central e a escala de Componentes já validadas nas Fases 1, 10 e 12. Nenhuma fórmula de teste nova foi criada; os únicos números realmente novos (rendimento de Essência, bônus de Cajado, preços) seguem o precedente de calibração por proporção da Decisão 35, não simulação matemática — mesma lógica já usada para Economia.
+
+---
+*Fases seguintes acrescentam decisões abaixo desta linha, na ordem em que forem tomadas.*
