@@ -16,6 +16,8 @@ Cada atividade é 1 teste (quando aplicável) + o resultado pela Margem de Suces
 | **Treinamento** | sem teste — só consome o Bloco + Créditos (`ECONOMIA.md` §4) | Habilita a Missão que permite ultrapassar o teto normal de Atributo/Perícia (`REGRAS.md` §4) |
 | **Pesquisa** | Intelecto+Investigação vs Dificuldade definida pelo Mestre | Mesma tabela de graus de descoberta de `REGRAS.md` §9 (Investigação em Exploração) |
 | **Fabricação** | ver `CRAFTING.md` | ver `CRAFTING.md` |
+| **Extração Alquímica (Frasco + Moedor)** | sem teste | converte 1 material Raro vinculado a um Arcano já em posse do personagem em 3 unidades de Essência Arcana daquele Arcano (`ALQUIMIA.md` §2.3); com Joia de Azoth a extração é instantânea e não consome um Bloco |
+| **Fabricação Alquímica** | ver `ALQUIMIA.md` §3 e §5 | ver `ALQUIMIA.md` — processar uma receita de Tier 3 ou superior na Pedra Filosofal consome 1 Bloco inteiro, além do custo de Mana normal |
 | **Trabalho** | Perícia relevante ao ofício vs Dificuldade 10 (Normal) | Sucesso rende Créditos conforme a tabela abaixo; Sucesso Excepcional/Extraordinário rende o dobro/triplo |
 | **Investigação** (sobre um gancho específico da campanha) | igual a Pesquisa, mas o Mestre já tem a informação-alvo definida | mesma tabela de graus de descoberta |
 | **Recuperação** | sem teste | Vitalidade e Determinação cheias automaticamente (não precisa de Descanso Longo formal) |

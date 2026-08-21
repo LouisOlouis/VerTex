@@ -82,7 +82,7 @@ A adição de mais pericias, ou niveis de conhecimento sobre elas(tambem valido 
 ## 5. Estatísticas Derivadas
 
 | Estatística | Fórmula |
-|---|---|---|
+|---|---|
 | Vitalidade | 10 + Vigor × 2 |
 | Defesa | 8 + Agilidade |
 | Iniciativa | 2d6 + Agilidade + Percepção (rolada 1x por combate) |

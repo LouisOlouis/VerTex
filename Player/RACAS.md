@@ -441,6 +441,56 @@ O Infectado força a própria Infecção a se manifestar de maneira controlada, 
 * Se a manifestação usada normalmente exigiria um aumento de Infecção, o aumento continua sendo aplicado.
 * Pode ser utilizada **1 vez por cena**.
 
+---
+
+## Homúnculo
+
+Não nasceu — foi feito. Um Homúnculo é o produto de um processo alquímico, deliberado ou acidental: um alquimista tentando gerar vida, um ritual que deu errado, uma tentativa de replicar uma alma em um corpo montado a partir de matéria comum e Essência Arcana. Carrega essa origem no próprio corpo — pele lisa e uniforme demais, veias com um leve brilho perceptível sob estresse, uma presença sutilmente "artificial" que outros notam à primeira vista.
+
+**Requer:** `ALQUIMIA.md`
+
+* **Deslocamento:** Intelecto +1 / Vigor −1
+* **Restrição:** um corpo montado, não gerado, recupera apenas metade da Vitalidade em um Descanso Longo comum — a outra metade exige tratamento alquímico específico (uma receita de `ALQUIMIA.md` voltada a isso, ou Downtime dedicado).
+
+### Habilidade Passiva — Sangue de Azoth
+
+O corpo do Homúnculo foi montado com Essência Arcana correndo pelas próprias veias — ele funciona, até certo ponto, como um Frasco vivo.
+
+**Estágio 1**
+
+* Pode armazenar até **1 unidade de Essência Arcana** diretamente no próprio corpo, de qualquer Arcano, sem precisar de Frasco físico.
+
+**Estágio 2**
+
+* A capacidade de armazenamento corporal sobe para **3 unidades**, podendo ser de tipos diferentes simultaneamente.
+
+**Estágio 3**
+
+* A capacidade de armazenamento corporal sobe para **5 unidades**.
+* O corpo se torna resistente a efeitos adversos do manuseio de Essência bruta (ex: instabilidade durante um ritual de `ALQUIMIA.md` §6).
+
+### Habilidade Ativa — Catálise de Emergência
+
+O Homúnculo força a Essência que carrega no próprio corpo a circular mais rápido, alimentando um efeito alquímico em andamento.
+
+**Estágio 1**
+
+* **Custo:** 1 Determinação.
+* Gasta 1 unidade de Essência armazenada no corpo para reduzir em **1** o custo de Mana da próxima receita de `ALQUIMIA.md` que realizar.
+* Pode ser utilizada **1 vez por cena**.
+
+**Estágio 2**
+
+* **Custo:** 1 Determinação.
+* Gasta até 2 unidades de Essência armazenada para reduzir em até **2** o custo de Mana da próxima receita, **ou** gasta 1 unidade para remover 1 Nível de Exausto.
+* Pode ser utilizada **1 vez por cena**.
+
+**Estágio 3**
+
+* **Custo:** 2 Determinação.
+* Gasta até 3 unidades de Essência armazenada para reduzir em até **3** o custo de Mana da próxima receita e concede **+1** no teste dessa receita.
+* Pode ser utilizada **1 vez por cena**.
+
 # 3. Progressão das Habilidades Únicas
 
 Mesma estrutura das Classes (`CLASSES.md` §3):

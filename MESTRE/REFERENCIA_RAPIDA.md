@@ -61,3 +61,9 @@ Resistência Social = 8+Vontade. Só rola quando o resultado é incerto e import
 
 ## Progressão (`REGRAS.md` §11)
 3–5 PE por sessão. Atributo = 2×novo nível · Perícia = 1×novo nível · Passiva 3 · Ativa 5 · Especial 8 · Especialização 4.
+
+## Alquimia (`ALQUIMIA.md`) *(módulo opcional, requer `MAGIA.md`)*
+Pedra Filosofal (Ferramenta obrigatória, reutilizável, vulnerável durante o processo) + Joia de Azoth (guarda Essência, evolui ao encher 5+ tipos simultâneos) ou Frasco+Moedor (sem escala). Extrair: consumir item Raro vinculado a um Arcano → 3 unidades de Essência. Fabricar: 2d6+Atributo+Perícia (Medicina/Tecnologia/Sobrevivência) vs Dificuldade da receita, + Mana, + catalisador ambiental. Sem Infecção Arcana — risco é perder o que processa se a Pedra for destruída/interrompida.
+
+## Cajados (`MAGIA.md` §8)
+Cabo (Crafting) + Pedra Arcana (1 Arcano só, ritual em `ALQUIMIA.md` §6). Exige Conexão Arcana no mesmo Arcano p/ funcionar; obrigatório para Nível de Conexão 4–5; bônus no teste em qualquer nível.

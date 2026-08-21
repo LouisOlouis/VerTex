@@ -53,5 +53,11 @@ Siga a tabela da seção 1. Regras de equilíbrio:
 - Nunca produza um efeito que as regras anti-quebra de `HABILIDADES.md` §2 proibiriam numa Habilidade (sem sucesso automático, sem ignorar Defesa/Vitalidade/Dificuldade por completo).
 - Um item fabricado nunca deve ser estritamente melhor que o equivalente comprado (`EQUIPAMENTOS.md`) pelo mesmo custo de espaço — fabricar existe para dar acesso quando comprar não é possível (campo, embargo, item raro), não para ser sempre a opção ótima.
 
+## 6. Alquimia
+
+A Alquimia é um ramo especializado deste sistema — em vez de Componentes comuns, ela trabalha com **Essência Arcana** extraída de materiais Raros vinculados a um Arcano, processada em uma **Pedra Filosofal** com o auxílio de uma **Joia de Azoth**. Usa a mesma estrutura de receita desta seção 1 (Perícia, Materiais, Ferramenta, Tempo, Dificuldade), com um custo adicional de Mana e uma condição/catalisador ambiental obrigatória por receita.
+
+Regras completas, tabela de obtenção de cada Essência por Arcano, e exemplos de poções: ver `ALQUIMIA.md`. Alquimia pressupõe o módulo `MAGIA.md` ativo (é de onde vem o recurso Mana).
+
 ---
-*Ver `DOWNTIME.md` para encaixar Fabricação em um Bloco de tempo entre aventuras, e `ECONOMIA.md` para preços de Componentes.*
+*Ver `DOWNTIME.md` para encaixar Fabricação em um Bloco de tempo entre aventuras, `ECONOMIA.md` para preços de Componentes, e `ALQUIMIA.md` para o ramo alquímico completo.*

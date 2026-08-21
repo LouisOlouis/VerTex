@@ -478,6 +478,57 @@ O Paladino ataca com a convicção de quem já decidiu que não vai recuar.
 
 ---
 
+## Transmutador
+
+Estudou a Alquimia como os outros estudam magia — Pedra Filosofal e Joia de Azoth em vez de varinha e grimório. Onde o Mago calcula o Arcano, o Transmutador o destila.
+
+* **Atributo Principal:** Intelecto
+* **Perícias:** Medicina, Tecnologia
+* Pressupõe os módulos `MAGIA.md` e `ALQUIMIA.md` ativos; sem eles, jogue como conceito narrativo puro (um artesão/químico habilidoso, sem os benefícios de Essência e Mana descritos abaixo).
+
+### Habilidade Passiva — Extração Eficiente
+
+Anos de prática tornaram o desperdício de matéria-prima do Transmutador quase nulo.
+
+**Estágio 1**
+
+* Ao extrair Essência Arcana (via Joia de Azoth ou Frasco+Moedor), rende **1 unidade extra** por item Raro consumido (4 em vez de 3, `ALQUIMIA.md` §2.2).
+
+**Estágio 2**
+
+* Mantém o benefício do Estágio 1.
+* O custo de Mana de receitas de `ALQUIMIA.md` que já conheça é reduzido em **1** (mínimo 1).
+
+**Estágio 3**
+
+* Mantém os benefícios anteriores.
+* A Joia de Azoth do Transmutador evolui exigindo **1 tipo a menos** de Essência simultaneamente cheia (mínimo 3 tipos, em vez dos 5 padrão de `ALQUIMIA.md` §2.2).
+
+### Habilidade Ativa — Foco Alquímico
+
+O Transmutador concentra sua atenção inteira em uma única transmutação, cortando distração e desperdício de Mana.
+
+**Estágio 1**
+
+* **Custo:** sem custo de Determinação.
+* Reduz o custo de Mana da próxima receita de `ALQUIMIA.md` em **1**.
+* Pode ser utilizada **1 vez por cena**.
+
+**Estágio 2**
+
+* **Custo:** sem custo de Determinação.
+* Reduz o custo de Mana da próxima receita em **1** e concede **+1** no teste dessa receita.
+* Pode ser utilizada **1 vez por cena**.
+
+**Estágio 3**
+
+* **Custo:** 1 Determinação.
+* Reduz o custo de Mana da próxima receita em **2** e concede **+1** no teste dessa receita.
+* Se a Pedra Filosofal for interrompida ou destruída durante o processamento dessa receita, pode gastar esta mesma ativação para preservar a Essência investida (`ALQUIMIA.md` §2.1) em vez de perdê-la.
+* Pode ser utilizada **1 vez por cena**.
+
+---
+
 # 3. Progressão das Habilidades Únicas
 
 Mesma estrutura das Raças (`RACAS.md` §3):

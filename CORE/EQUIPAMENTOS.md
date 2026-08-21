@@ -37,5 +37,28 @@ Tabelas de referência rápida. As regras completas (espaços de inventário, ef
 
 Ferramentas e kits **não empilham** com outro item de efeito idêntico (mesma regra de `HABILIDADES.md`) — carregar duas cordas não reduz a Dificuldade duas vezes.
 
+## Itens de Alquimia *(módulo opcional — requer `MAGIA.md` e `ALQUIMIA.md`)*
+
+| Item | Espaços | Efeito |
+|---|---:|---|
+| Pedra Filosofal | 2 | Ferramenta obrigatória para qualquer receita de `ALQUIMIA.md`. Reutilizável em receitas comuns; consumida em rituais de artefato (Pedra Arcana, Livro da Gula) |
+| Joia de Azoth | 1 | Armazena Essência Arcana extraída; capacidade inicial limitada, expande com o uso (`ALQUIMIA.md` §2.2) |
+| Frasco (vazio) | 1 = 3 unidades | Guarda matéria-prima Rara extraída, para quem não tem Joia de Azoth; não empilha com material já processado |
+| Moedor | 1 | Decompõe o conteúdo de um Frasco em Essência Arcana utilizável (mesmo rendimento da Joia de Azoth) |
+
+## Cajados *(módulo opcional — requer `MAGIA.md`, Conexão Arcana)*
+
+Um Cajado é sempre composto por um **Cabo** (fabricado via Crafting comum — melhor material, melhor cajado) e uma **Pedra Arcana** obrigatória (criada por ritual de Alquimia, `ALQUIMIA.md` §6), com Adornos opcionais que reforçam o mesmo Arcano da Pedra. Regras completas de uso em `MAGIA.md`.
+
+| Cajado (exemplo) | Cabo | Pedra Arcana | Adorno | Espaços | Bônus |
+|---|---|---|---|---:|---|
+| Cajado de Freixo Simples | Comum | Fogo | nenhum | 2 | +1 em testes de Conexão Arcana (Fogo) |
+| Cajado Reforçado de Carvalho | Incomum | Gelo | cristal de gelo entalhado | 2 | +1 em testes de Conexão Arcana (Gelo); reduz em 1 o custo de Mana |
+| Cajado de Ferro-Estrela | Raro | Metal | fragmento de meteoro embutido | 2 | +2 em testes de Conexão Arcana (Metal); reduz em 2 o custo de Mana |
+| Cajado Emplumado | Incomum | Ar/Vento | penas de ave-do-trovão | 2 | +1 em testes de Conexão Arcana (Ar/Vento); +1 degrau de Dificuldade favorável em efeitos de movimento/som |
+| Cajado Espinhal | Raro | Sangue | presas amarradas ao topo | 2 | +2 em testes de Conexão Arcana (Sangue); permite gastar Vitalidade no lugar de Mana uma vez por cena |
+
+Ferramentas/Cajados **não empilham** com outro item de efeito idêntico (mesma regra de `HABILIDADES.md`) — dois Cajados do mesmo Arcano não somam bônus, usa-se o maior.
+
 ---
-*Itens especiais (com história e poder próprios) são Artefatos — ver `MALDICOES.md`, seção 2.*
+*Itens especiais (com história e poder próprios) são Artefatos — ver `MALDICOES.md`, seção 2. Alquimia e Cajados: ver `ALQUIMIA.md` e `MAGIA.md`.*

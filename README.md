@@ -19,16 +19,17 @@ Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dif
 | [`COMBATE.md`](CONFLITOS/COMBATE.md) | Sistema de combate completo: ações, iniciativa, ataque, defesa, dano, ferimentos, fuga |
 | [`HABILIDADES.md`](CORE/HABILIDADES.md) | Habilidades Passivas, Ativas e Especiais, com regras para impedir combinações quebradas |
 | [`INFECCAO.md`](SOBRENATURAL/INFECCAO.md) | Os 6 Níveis de Infecção, resistência, tratamento e a decisão central de aceitar poder vs. remover |
-| [`MALDICOES.md`](SOBRENATURAL/MALDICOES.md) | Maldições modulares, Artefatos e a estrutura mecânica da Wagurita |
-| [`MAGIA.md`](SOBRENATURAL/MAGIA.md) | *(módulo opcional)* Pergaminhos, Conexão Arcana, Mana, Infecção Arcana e 12 Arcanos |
-| [`CLASSES.md`](Player/CLASSES.md) | *(módulo opcional)* 9 arquétipos tradicionais de RPG com Habilidade Única progressiva |
-| [`RACAS.md`](Player/RACAS.md) | *(módulo opcional)* Humano, Elfo, Anão, Orc, Halfling e mais, com Habilidade Única progressiva |
+| [`MALDICOES.md`](SOBRENATURAL/MALDICOES.md) | Maldições modulares, Artefatos (incluindo o Livro da Gula) e a estrutura mecânica da Wagurita |
+| [`MAGIA.md`](SOBRENATURAL/MAGIA.md) | *(módulo opcional)* Pergaminhos (uso e produção), Conexão Arcana, Mana, Infecção Arcana, 12 Arcanos e Cajados |
+| [`ALQUIMIA.md`](CORE/ALQUIMIA.md) | *(módulo opcional, requer Magia)* Ramo de Crafting: Pedra Filosofal, Joia de Azoth, extração e tabela de Essência Arcana por Arcano, receitas de poções |
+| [`CLASSES.md`](Player/CLASSES.md) | *(módulo opcional)* 10 arquétipos tradicionais de RPG com Habilidade Única progressiva, incluindo o Transmutador (Alquimia) |
+| [`RACAS.md`](Player/RACAS.md) | *(módulo opcional)* Humano, Elfo, Anão, Orc, Halfling, Homúnculo e mais, com Habilidade Única progressiva |
 | [`CORRIDAS.md`](EXPLORAÇAO/CORRIDAS.md) | Corridas e perseguições: Trechos, Manobra Arriscada, Ultrapassagem, veículos e montarias |
-| [`EQUIPAMENTOS.md`](CORE/EQUIPAMENTOS.md) | Catálogo de armas, armaduras e itens |
+| [`EQUIPAMENTOS.md`](CORE/EQUIPAMENTOS.md) | Catálogo de armas, armaduras, itens, Alquimia e Cajados |
 | [`INIMIGOS.md`](MESTRE/INIMIGOS.md) | Criação rápida de inimigos por Nível + catálogo de 30 (Comuns/Especializados/Sobrenaturais/Elites/Chefes) |
 | [`ECONOMIA.md`](CORE/ECONOMIA.md) | Moeda (Créditos), preços de armas/armaduras/itens/serviços, recompensas e comércio |
 | [`DOWNTIME.md`](CORE/DOWNTIME.md) | Atividades entre aventuras: tratamento, treinamento, pesquisa, fabricação, trabalho, reputação |
-| [`CRAFTING.md`](CORE/CRAFTING.md) | Fabricação modular: materiais, ferramentas, tempo, Dificuldade e exemplos de receita |
+| [`CRAFTING.md`](CORE/CRAFTING.md) | Fabricação modular: materiais, ferramentas, tempo, Dificuldade, exemplos de receita e o ramo de Alquimia (`ALQUIMIA.md`) |
 | [`MESTRE.md`](MESTRE/MESTRE.md) | Guia do Mestre: dificuldades, encontros, NPCs, recompensas, improviso |
 | [`PLAYTEST.md`](PLAYTEST/PLAYTEST.md) | 3 cenários jogados (combate, investigação, corrida) e o que cada um revelou |
 | [`BALANCEAMENTO.md`](PLAYTEST/BALANCEAMENTO.md) | **Toda** decisão de balanceamento, com o teste matemático ou de playtest que a motivou |
@@ -38,7 +39,7 @@ Um RPG de mesa original com mecânica central **2d6 + Atributo + Perícia vs Dif
 
 ## O que já está pronto
 
-Personagens, combate (incluindo agarrar/derrubar/empurrar/desarmar/mirar e regras de Chefe), ferimentos e condições, Sorte e Determinação, Tempo/Descanso/Recuperação, Estabilização e Morte, Furtividade universal (Oculto/Suspeito/Detectado), Ajuda e Intervenção fora de combate, habilidades, Infecção, Maldições/Artefatos, corridas, exploração, conflitos sociais, progressão, equipamentos, Economia, Downtime, Crafting, criação de inimigos, guia do Mestre, referência rápida, playtest, auditoria de consistência, e os módulos opcionais de Magia, Classes e Raças.
+Personagens, combate (incluindo agarrar/derrubar/empurrar/desarmar/mirar e regras de Chefe), ferimentos e condições, Sorte e Determinação, Tempo/Descanso/Recuperação, Estabilização e Morte, Furtividade universal (Oculto/Suspeito/Detectado), Ajuda e Intervenção fora de combate, habilidades, Infecção, Maldições/Artefatos (incluindo o Livro da Gula), corridas, exploração, conflitos sociais, progressão, equipamentos, Economia, Downtime, Crafting, Alquimia (Pedra Filosofal, Joia de Azoth, produção de Pergaminhos, Cajados), criação de inimigos, guia do Mestre, referência rápida, playtest, auditoria de consistência, e os módulos opcionais de Magia, Classes (incluindo o Transmutador) e Raças (incluindo o Homúnculo).
 
 ## Em aberto (próximas fases)
 

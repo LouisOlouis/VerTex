@@ -1,13 +1,14 @@
 # MAGIA (Módulo Opcional)
 
-Este é um módulo — só entra na mesa se a campanha usar magia além (ou em vez) da Infecção. Reaproveita a mecânica central em vez de criar um sistema numérico paralelo. Ver também `CLASSES.md` (Mago, Druida e Clérigo se apoiam neste sistema) e `RACAS.md` (algumas raças começam com afinidade arcana).
+Este é um módulo — só entra na mesa se a campanha usar magia além (ou em vez) da Infecção. Reaproveita a mecânica central em vez de criar um sistema numérico paralelo. Ver também `CLASSES.md` (Mago, Druida, Clérigo e o Transmutador se apoiam neste sistema) e `RACAS.md` (algumas raças começam com afinidade arcana, incluindo o Homúnculo).
 
-Existem **duas formas** de usar magia, com uma tensão diferente cada uma:
+Existem **três formas** de usar magia, com uma tensão diferente cada uma:
 
 - **Pergaminhos** — magia aprendida/técnica: segura, mas rígida e descartável.
 - **Conexão Arcana** — magia vivida/espiritual: flexível, mas arriscada para corpo e mente.
+- **Cajados** *(seção 8)* — não são uma terceira forma de conjurar por conta própria, mas um catalisador que potencializa a Conexão Arcana de quem já a possui.
 
-Ambas gastam do mesmo recurso: **Mana**.
+Todas gastam do mesmo recurso: **Mana**. A produção de Pergaminhos e a criação de Cajados usam, além disso, o sistema de Alquimia (`ALQUIMIA.md`).
 
 ## 1. Nova Perícia: Conjuração
 
@@ -46,6 +47,31 @@ Resultado pela Margem (`REGRAS.md` §2):
 | Sucesso extraordinário | efeito ampliado (dado em dobro, usa o maior) | nao sofre dano de uso |
 
 **Por que Falha Crítica não causa Infecção Arcana:** um Pergaminho já fez o trabalho difícil de estabilizar o feitiço antes de chegar às suas mãos — o risco foi pago por quem o escreveu, não por quem o usa. É isso que torna Pergaminhos a forma "segura" de fazer magia: previsíveis, descartáveis, sem risco pessoal, ao custo de nunca fazerem nada além do que já vêm prontos para fazer.
+
+### 3.1 Produção de Pergaminhos *(requer `ALQUIMIA.md`)*
+
+Um Pergaminho não nasce pronto — alguém o produz, gastando o mesmo aparato de `ALQUIMIA.md`, mais um teste de conjuração de verdade. O processo tem duas etapas bem separadas:
+
+**Etapa 1 — Preparar o suporte.** Um papel comum é imbuído com Mana através de um teste de Conjuração puro: **2d6 + Intelecto + Conjuração vs Dificuldade 10**. Essa etapa não usa Arcanismo nem Alquimia — qualquer conjurador pode preparar papéis imbuídos em série, mesmo sem nunca ter tocado em Essência Arcana. O resultado é um "papel em branco" pronto para receber um feitiço.
+
+**Etapa 2 — Gravar o feitiço.** Isso já usa o aparato completo de Alquimia:
+
+1. Formar um círculo com as Essências Arcanas correspondentes ao Arcano do feitiço desejado, na mesma quantidade exigida pelo Círculo do Pergaminho (ver tabela abaixo).
+2. Posicionar a Pedra Filosofal no centro do círculo (uso reutilizável — a Pedra não é consumida nesta etapa).
+3. O conjurador tenta o feitiço normalmente por **Conexão Arcana** (`MAGIA.md` §4: 2d6 + Vontade + Nível de Conexão vs a Dificuldade do Círculo desejado), mas aponta o efeito para a Pedra Filosofal em vez de liberá-lo na cena — a Pedra intercepta e captura o resultado.
+4. No clímax, as Essências do círculo se espalham pelo ambiente (a descarga visual do poder sendo liberado) e o papel imbuído queima — é o próprio ato de queimar que grava o feitiço nele.
+
+| Círculo do Pergaminho | Dificuldade da conjuração | Essência exigida (por Arcano do feitiço) |
+|---:|---:|---:|
+| 1 | 10 | 1 unidade |
+| 2 | 12 | 2 unidades |
+| 3 | 14 | 3 unidades |
+| 4 | 16 | 4 unidades |
+| 5 | 18+ | 5 unidades |
+
+O resultado da conjuração na Etapa 2 segue a Margem normal de Conexão Arcana (`MAGIA.md` §4): Falha destrói o círculo de Essências sem produzir nada (papel intacto, pode tentar de novo); Falha Crítica não gera Infecção Arcana aqui (a Pedra Filosofal absorve o choque no lugar do corpo do conjurador — mesma lógica de risco físico de `ALQUIMIA.md` §2.1), mas destrói tanto as Essências quanto o papel; Sucesso produz o Pergaminho com as estatísticas normais de seu Círculo (`MAGIA.md` §3); Sucesso Excepcional/Extraordinário produz o Pergaminho com 1 uso extra.
+
+Um Pergaminho produzido dessa forma é **idêntico** a um comprado (`ECONOMIA.md` §3) — Alquimia é uma via de acesso alternativa, não uma versão superior, seguindo a mesma regra de equilíbrio de `CRAFTING.md` §5.
 
 ## 4. Conexão Arcana
 
@@ -116,3 +142,31 @@ A lista acima é um ponto de partida — a campanha pode renomear, adicionar ou 
 ## 7. Regras Anti-Quebra
 
 Tanto Pergaminhos quanto Conexão Arcana seguem as 5 regras de `HABILIDADES.md` §2 — a Dificuldade tabelada (Pergaminhos) e o teto por Nível de Conexão (Arcana) já cumprem o papel de "nunca sucesso automático" e "efeito tetado pelo Atributo/Nível" nativamente, então nenhuma regra extra é necessária.
+
+## 8. Cajados *(módulo opcional — requer Conexão Arcana e `ALQUIMIA.md`)*
+
+Um Cajado é um catalisador físico que amplia e direciona o poder de um conjurador com Conexão Arcana — a terceira via de interação com Magia deste sistema, ao lado de Pergaminhos e Conexão Arcana pura, mas que não funciona sozinha: ela **potencializa** a Conexão Arcana, não a substitui.
+
+### 8.1 Componentes obrigatórios
+
+- **Cabo:** a base física do Cajado, fabricada via Crafting comum (`CRAFTING.md`). Melhor material de Componente usado no Cabo, melhor o Cajado — controla a magnitude do bônus (ver exemplos em `EQUIPAMENTOS.md`).
+- **Pedra Arcana:** o núcleo obrigatório, criado por um ritual de Alquimia que consome 1 Pedra Filosofal inteira e 8 unidades de Essência de um único Arcano (`ALQUIMIA.md` §6). Cada Pedra Arcana contém exatamente **um** Arcano — não existe Pedra Arcana híbrida.
+- **Adornos (opcionais):** decorações agregadas ao Cajado (penas, presas, cristais) concedem bônus temáticos adicionais, mas **só fazem efeito se forem do mesmo Arcano da Pedra Arcana** do Cajado — um adorno de Arcano diferente permanece puramente decorativo, sem reforçar nem misturar.
+
+### 8.2 Regras de uso
+
+- Um Cajado só funciona se o portador tiver **Conexão Arcana com o Arcano da sua Pedra Arcana** (`MAGIA.md` §4). Sem essa Conexão, o Cajado não tem efeito mecânico algum — é só um bastão bem trabalhado.
+- Com a Conexão correta, o Cajado é **obrigatório** para tentar efeitos de Nível de Conexão 4 ou 5 (Dificuldade 16+ na tabela de `MAGIA.md` §4) daquele Arcano — sem ele, esses efeitos são impossíveis de tentar, a critério do Mestre, seguindo a mesma lógica de Ferramenta ausente em `CRAFTING.md` §1.
+- Em qualquer Nível de Conexão, o Cajado concede um bônus numérico ao teste de Conexão Arcana (ver tabela de exemplos em `EQUIPAMENTOS.md` — Cabo Comum: +1; Cabo Incomum: +1 e −1 no custo de Mana; Cabo Raro: +2 e −2 no custo de Mana), por ajudar no direcionamento de Mana — esse bônus segue a mesma regra de "Ferramenta especializada" já usada em `REGRAS.md` §12, não empilha com outro Cajado do mesmo Arcano.
+
+### 8.3 Escada de investimento
+
+| Situação | Efeito |
+|---|---|
+| Sem Conexão Arcana no Arcano da Pedra | nenhum efeito — o Cajado é só estética |
+| Com Conexão, sem Cajado | conjura normalmente até Nível de Conexão 3 (Dificuldade até 14) |
+| Com Conexão + Cajado | bônus no teste em qualquer Nível, conforme o Cabo (§8.2) |
+| Nível de Conexão 4–5 (Dificuldade 16+) | o Cajado deixa de ser bônus opcional e vira requisito |
+
+---
+*Ver `ALQUIMIA.md` para o ritual de criação da Pedra Arcana, `EQUIPAMENTOS.md` para exemplos de Cajados montados, e `CRAFTING.md` para fabricar o Cabo.*

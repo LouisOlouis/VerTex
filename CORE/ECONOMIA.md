@@ -4,8 +4,7 @@ Sistema simples: uma moeda, tabelas de preço coerentes com `EQUIPAMENTOS.md`, s
 
 ## 1. Moeda
 
-A economia funciona com um unico recurso invisível de lastrom os **Créditos**.
-Se derivando dos creditos o mestre pode criar toda e qualquer moeda ou forma de economia.
+Um único recurso: **Créditos**. Não existe câmbio nem fragmentação em moedas menores — tudo tem um preço em Créditos, ponto final.
 
 **Início de jogo:** todo personagem começa com **100 Créditos** (`CRIACAO_PERSONAGEM.md` §5).
 
@@ -13,6 +12,7 @@ Se derivando dos creditos o mestre pode criar toda e qualquer moeda ou forma de 
 
 | Item | Preço |
 |---|---:|
+| Soco/chute | grátis |
 | Faca | 10 |
 | Espada | 30 |
 | Machado | 40 |
@@ -43,6 +43,19 @@ Se derivando dos creditos o mestre pode criar toda e qualquer moeda ou forma de 
 | Pergaminho, Círculo 5 | 300 |
 
 Preços seguem a mesma progressão de dano/espaço/efeito já usada em `EQUIPAMENTOS.md` — nenhum item foi precificado fora da escala relativa da tabela original.
+
+## 3.1 Preços — Alquimia e Cajados *(módulo opcional)*
+
+| Item | Preço |
+|---|---:|
+| Frasco (vazio) | 5 |
+| Moedor | 40 |
+| Pedra Filosofal | 400 |
+| Joia de Azoth | 800 |
+| Cajado, Cabo Comum (sem Pedra Arcana) | 30 |
+| Cajado, Cabo Incomum (sem Pedra Arcana) | 90 |
+
+A Pedra Arcana de um Cajado, o Couro de Dragão do Livro da Gula, e qualquer material Raro vinculado a um Arcano (`ALQUIMIA.md` §4) **não têm preço de tabela** — seguem a regra geral de Componentes Raros (`CRAFTING.md` §2): quase nunca comprados, normalmente um gancho de aventura. Um Mestre que queira vendê-los excepcionalmente deve tratar o preço como no mínimo 5–10× o item Raro mais caro já precificado na campanha.
 
 ## 4. Serviços
 
