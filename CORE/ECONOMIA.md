@@ -4,7 +4,8 @@ Sistema simples: uma moeda, tabelas de preço coerentes com `EQUIPAMENTOS.md`, s
 
 ## 1. Moeda
 
-Um único recurso: **Créditos**. Não existe câmbio nem fragmentação em moedas menores — tudo tem um preço em Créditos, ponto final.
+A economia funciona com um unico recurso invisível de lastrom os **Créditos**.
+Se derivando dos creditos o mestre pode criar toda e qualquer moeda ou forma de economia.
 
 **Início de jogo:** todo personagem começa com **100 Créditos** (`CRIACAO_PERSONAGEM.md` §5).
 
@@ -12,7 +13,6 @@ Um único recurso: **Créditos**. Não existe câmbio nem fragmentação em moed
 
 | Item | Preço |
 |---|---:|
-| Soco/chute | grátis |
 | Faca | 10 |
 | Espada | 30 |
 | Machado | 40 |
