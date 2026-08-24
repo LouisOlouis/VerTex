@@ -134,8 +134,7 @@ No nivel 6 o personagem se torna um arauto do arcano
 | Escuridão | ocultamento, silêncio, o desconhecido | a sombra do personagem se move com leve atraso | isolamento — evita pedir ajuda ou revelar informação mesmo quando seria útil |
 | Natureza | crescimento, decomposição, instinto animal | pele com textura de casca ou escama em pontos pequenos | instinto acima da razão — reage como um animal encurralado a ameaças, mesmo sociais |
 | Metal | dureza, condução, precisão | veias com brilho metálico visíveis sob pele fina | frieza mecânica — trata problemas como quebra-cabeças a resolver, ignora o peso emocional da situação |
-| Sangue | vida, vínculo, sacrifício | pequenos cortes que não cicatrizam totalmente | possessividade — prioriza proteger quem já é próximo, mesmo à custa de estranhos que precisariam de ajuda |
-| Espírito | memória, alma, o que fica após a morte | a voz ganha um leve eco duplo, como se outra pessoa falasse junto | distância emocional — trata o presente com o desapego de quem já viu esse momento se repetir |
+| Sangue | vida, cura, corrupção | massas de carne crescendo onde nao deveriam | possessividade — prioriza proteger quem já é próximo, mesmo à custa de estranhos que precisariam de ajuda |
 
 A lista acima é um ponto de partida — a campanha pode renomear, adicionar ou remover Arcanos livremente, mantendo a mesma estrutura (Domínio + Sintoma + Traço de Domínio).
 
