@@ -1,4 +1,4 @@
- # AVENTURA — AS MINAS DA ILHA
+ # AVENTURA — AS MINAS DA ILHA BILAL
 
 Aventura individual para **Ryusei Kaiser**, ambientada num mundo onde a União Soviética venceu a Guerra Fria e os Estados Unidos foram dissolvidos. Cobre da descoberta de uma célula revolucionária até uma tentativa de fuga de uma prisão-mina insular. Usa exclusivamente as regras já existentes do VerTex (`REGRAS.md`, `COMBATE.md`, `INFECCAO.md`, `MALDICOES.md`, `HABILIDADES.md`, `RACAS.md`, `MESTRE.md`, `INIMIGOS.md`) — nenhuma mecânica nova é criada; as poucas extensões necessárias estão marcadas como **[EXTENSÃO]** e justificadas no ato.
 
